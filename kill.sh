@@ -1,4 +1,5 @@
 #!/bin/sh
+
 #killall -9 python
 #killall -9 arecord
 #sleep 4
