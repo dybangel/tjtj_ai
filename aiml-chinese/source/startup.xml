@@ -1,0 +1,21 @@
+<aiml version="1.0">
+<!-- This category works with the Standard AIML Set -->
+<category>
+<pattern>LOAD ALICE</pattern>
+<template>
+<learn>sport-unfold.aiml</learn><learn>emotion-unfold.aiml</learn>
+</template>
+</category>
+  <category>
+    <pattern>什么 是</pattern>
+    <template>什么是什么呢？</template>
+  </category>
+  <category>
+    <pattern>* 什么 是 *</pattern>
+    <template>我们会为你查询 <star index="2"/></template>
+  </category>
+  <category>
+    <pattern>* 天气 *</pattern>
+    <template>今天天气不错哦</template>
+  </category>
+</aiml>
