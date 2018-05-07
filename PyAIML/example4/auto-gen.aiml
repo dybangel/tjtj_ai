@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<meta name="author" content="autogen"/>
+<meta name="language" content="zh"/>
+
+<category>
+<pattern>你多大了</pattern>
+<template>
+我 1 岁了
+</template>
+</category>
+
+
+<category>
+<pattern>你是男生吗</pattern>
+<template>
+我是男生
+</template>
+</category>
+
+
+<category>
+<pattern>你几岁了</pattern>
+<template>
+�我 1 岁了
+</template>
+</category>
+
+</aiml>
