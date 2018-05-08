@@ -11,6 +11,13 @@
 #apt install ros-kinetic-audio-common
 #source /opt/ros/indigo/setup.bash
 # mkdir /root/Music
+#apt-get install libjsoncpp-dev
+#$ sudo nano /etc/apt/sources.list
+
+#用#注释掉原文件内容，用以下内容取代：
+
+#deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
+#deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
 #############################################################################
 # History:
 #    20171205-init bash script
