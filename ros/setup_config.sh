@@ -7,7 +7,17 @@
 #   的根目录下，不要随便移动位置，否则导致无法正常配置和编译。该脚本注意功能
 #   就是安装缺少运行语音程序的软件包，编译整个代码空间，配置环境变量，可以说
 #   是一键执行脚本，减少大家烦琐的配置编译步骤。
-#
+# apt install swig
+#apt install ros-kinetic-audio-common
+#source /opt/ros/indigo/setup.bash
+# mkdir /root/Music
+#apt-get install libjsoncpp-dev
+#$ sudo nano /etc/apt/sources.list
+
+#用#注释掉原文件内容，用以下内容取代：
+
+#deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
+#deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
 #############################################################################
 # History:
 #    20171205-init bash script
@@ -20,7 +30,7 @@
 #############################################################################
 
 CURRENT_PATH=$(dirname $(readlink -f "$0"))
-WORKSPACE_PATH=${CURRENT_PATH%scripts}
+WORKSPACE_PATH=${CURRENT_PATH%scripts}'/'
 green="\e[32;1m"
 normal="\e[0m"
 
@@ -52,7 +62,7 @@ echo -e "${green}>>> WORKSPACE_PATH=${WORKSPACE_PATH} <<< ${normal}"
 
 echo -e "\n${green} 0x00: Update packages source list ${normal}"
 updateSourceList
-sudo apt-get update
+#sudo apt-get update
 
 
 echo -e "\n${green} 0x01: Install sox pkg and lib for iflytek_tts ${normal}"
