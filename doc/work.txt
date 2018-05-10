@@ -7,6 +7,9 @@
 7、树莓派控制传感器，可能需要arduino
 8、----磁悬浮充研究
 9、找一些hbulider的demo项目，主要是控件mui和控制硬件的，有个nat。js
+10、语音端点检测https://github.com/robin1001/vad.git 树莓派下可以分割wav
+				https://github.com/halleytl/pyvad.git 树莓派下可以分割
+                https://github.com/wangshub/python-vad.git x86下可以识别mic的端点 树莓派3b mate下运行报错 最好研究下
 
 4、图片 能够智能学习类似imagenet方式，交给他图片，能自己认识的项目
 5、文章 能够基于现有文章自动写作的项目
