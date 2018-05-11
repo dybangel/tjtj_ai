@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIN_TARGET	Makefile	/^BIN_TARGET = $(DIR_BIN)\/$(TARGET)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -Wall -I$(DIR_INC)$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = $/;"	m
+DIR_BIN	Makefile	/^DIR_BIN = ..\/..\/bin$/;"	m
+DIR_INC	Makefile	/^DIR_INC = ..\/..\/include$/;"	m
+DIR_LIB	Makefile	/^DIR_LIB = ..\/..\/libs$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS := -L$(DIR_LIB)\/x64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS := -L$(DIR_LIB)\/x86 $/;"	m
+OBJECTS	Makefile	/^OBJECTS := $(patsubst %.c,%.o,$(wildcard *.c))$/;"	m
+TARGET	Makefile	/^TARGET	= tts_sample$/;"	m
+_wave_pcm_hdr	tts_sample.c	/^typedef struct _wave_pcm_hdr$/;"	s	file:
+_wave_pcm_hdr::avg_bytes_per_sec	tts_sample.c	/^	int		avg_bytes_per_sec;      \/\/ = 每秒字节数 : samples_per_sec * bits_per_sample \/ 8$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::bits_per_sample	tts_sample.c	/^	short int       bits_per_sample;        \/\/ = 量化比特数: 8 | 16$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::block_align	tts_sample.c	/^	short int       block_align;            \/\/ = 每采样点字节数 : wBitsPerSample \/ 8$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::channels	tts_sample.c	/^	short int       channels;               \/\/ = 通道数 : 1$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::data	tts_sample.c	/^	char            data[4];                \/\/ = "data";$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::data_size	tts_sample.c	/^	int		data_size;              \/\/ = 纯数据长度 : FileSize - 44 $/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::fmt	tts_sample.c	/^	char            fmt[4];                 \/\/ = "fmt "$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::fmt_size	tts_sample.c	/^	int		fmt_size;		\/\/ = 下一个结构体的大小 : 16$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::format_tag	tts_sample.c	/^	short int       format_tag;             \/\/ = PCM : 1$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::riff	tts_sample.c	/^	char            riff[4];                \/\/ = "RIFF"$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::samples_per_sec	tts_sample.c	/^	int		samples_per_sec;        \/\/ = 采样率 : 8000 | 6000 | 11025 | 16000$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::size_8	tts_sample.c	/^	int		size_8;                 \/\/ = FileSize - 8$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+_wave_pcm_hdr::wave	tts_sample.c	/^	char            wave[4];                \/\/ = "WAVE"$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+avg_bytes_per_sec	tts_sample.c	/^	int		avg_bytes_per_sec;      \/\/ = 每秒字节数 : samples_per_sec * bits_per_sample \/ 8$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+bits_per_sample	tts_sample.c	/^	short int       bits_per_sample;        \/\/ = 量化比特数: 8 | 16$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+block_align	tts_sample.c	/^	short int       block_align;            \/\/ = 每采样点字节数 : wBitsPerSample \/ 8$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+channels	tts_sample.c	/^	short int       channels;               \/\/ = 通道数 : 1$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+data	tts_sample.c	/^	char            data[4];                \/\/ = "data";$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+data_size	tts_sample.c	/^	int		data_size;              \/\/ = 纯数据长度 : FileSize - 44 $/;"	m	struct:_wave_pcm_hdr	file:	access:public
+default_wav_hdr	tts_sample.c	/^wave_pcm_hdr default_wav_hdr = $/;"	v
+fmt	tts_sample.c	/^	char            fmt[4];                 \/\/ = "fmt "$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+fmt_size	tts_sample.c	/^	int		fmt_size;		\/\/ = 下一个结构体的大小 : 16$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+format_tag	tts_sample.c	/^	short int       format_tag;             \/\/ = PCM : 1$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+main	tts_sample.c	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+riff	tts_sample.c	/^	char            riff[4];                \/\/ = "RIFF"$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+samples_per_sec	tts_sample.c	/^	int		samples_per_sec;        \/\/ = 采样率 : 8000 | 6000 | 11025 | 16000$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+size_8	tts_sample.c	/^	int		size_8;                 \/\/ = FileSize - 8$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+text_to_speech	tts_sample.c	/^int text_to_speech(const char* src_text, const char* des_path, const char* params)$/;"	f	signature:(const char* src_text, const char* des_path, const char* params)
+wave	tts_sample.c	/^	char            wave[4];                \/\/ = "WAVE"$/;"	m	struct:_wave_pcm_hdr	file:	access:public
+wave_pcm_hdr	tts_sample.c	/^} wave_pcm_hdr;$/;"	t	typeref:struct:_wave_pcm_hdr	file:
