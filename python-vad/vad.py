@@ -16,7 +16,8 @@ import time
 
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
-RATE = 16000
+#RATE = 16000 #for ubuntu_mate_16.04_x230mic
+RATE = 48000 #for 3b usb_write_mic
 CHUNK_DURATION_MS = 30       # supports 10, 20 and 30 (ms)
 PADDING_DURATION_MS = 1500   # 1 sec jugement
 CHUNK_SIZE = int(RATE * CHUNK_DURATION_MS / 1000)  # chunk to read

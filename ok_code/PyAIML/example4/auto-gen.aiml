@@ -5,6 +5,14 @@
 <meta name="language" content="zh"/>
 
 <category>
+<pattern>你叫什么</pattern>
+<template>
+我叫梦娃
+</template>
+</category>
+
+
+<category>
 <pattern>你多大了</pattern>
 <template>
 我 1 岁了
