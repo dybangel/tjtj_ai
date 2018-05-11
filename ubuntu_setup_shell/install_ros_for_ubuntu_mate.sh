@@ -6,4 +6,5 @@ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 sudo rosdep init
 rosdep updat
+mkdir /root/Music
 
