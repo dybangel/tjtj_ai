@@ -1,0 +1,77 @@
+/*html根元素css具有继承inherit能力，在它及body设置的样式，作用于所有元素*/
+
+
+/*css重置，让浏览器成为一张白纸*/
+
+* {
+    margin: 0o;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    height: 100%;
+    background: url(./b9r5sEL.jpg) bottom center;
+    /*上下位于下面，左右位于中间*/
+    background-repeat: no-repeat;
+    /*做移动端项目开发时-ms-background-size: contain;也可以不加*/
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    /*webkit浏览器前缀 css曾经是新的，很多浏览器不支持或部分支持，实验性支持，加上前缀*/
+    /*ove以容器为主，等比例缩放图片;contain以图片为主，等比例缩放图片*/
+    background-size: cover;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    /*上：纵轴居中；下：水平居中*/
+    justify-content: center;
+    /*最小高度，vh只跟显示屏有关，总共100份，比例分配*/
+    min-height: 100vh;
+}
+
+.key {
+    color: blue;
+    border: .4rem solid #000;
+    /*rem和vh是css3的相对单位，rem是relactive html标签的font-size等比例换算关系，大小将与设备无关
+    px 不靠谱，屏幕密度*/
+    -webkit-border-radius: .5rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    width: 10rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 1);
+    /*字体加阴影:(水平 垂直)偏移量 阴影的大小*/
+    text-shadow: 0 0 .5rem black;
+    transition: all 0.07s ease;
+    /*添加过渡效果,样式的变化自动添加渐变， all支持样式
+    .7 时间  ease 改变的速度 快速运动  由慢到快*/
+}
+
+.key div {
+    font-size: 4rem;
+}
+
+.key .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
