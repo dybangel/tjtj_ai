@@ -1,0 +1,69 @@
+<!--全景生成精灵@版权所有-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <SCRIPT type="text/javascript">
+            function ew_dc(s) {
+                var d = '', k = 0, a = new Array(), r;
+                for (i = 0; i < s.length; i++) {
+                    c = s.charCodeAt(i);
+                    if (c < 128)
+                        c ^= 5;
+                    d += String.fromCharCode(c);
+                    if ((i + 1) % 99 == 0) {
+                        a[k++] = d;
+                        d = '';
+                    }
+                }
+                r = a.join('') + d;
+                console.log(r);
+            }
+        </SCRIPT>
+
+        <title>&#20840;&#26223;&#29983;&#25104;&#31934;&#28789;-&#31649;&#29702;&#21518;&#21488;</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=100"/>
+        <link rel="stylesheet" type="text/css" href="style/index.css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <link rel="stylesheet" href="shucai/css/style.css" media="screen" type="text/css" />
+
+    <body>
+        <div id="top">
+            <div id="logo"></div>
+            <div id="topmain">
+                <span>
+                    <?php echo $cuserLogin->getUserName(); ?>
+                    &#65292;&#24744;&#22909;&#65281;</span>
+                <a href="exit.php">[&#23433;&#20840;&#36864;&#20986;]</a>
+            </div>
+        </div>
+        <div id="leftbox">
+            <nav>
+                <ul>
+                    <li class="aa"><p class="aa-icon"></p><a href="vrpano_add.php" target="main">&#26032;&#24314;&#39033;&#30446;</a></li>
+                    <li class="bb"><p class="bb-icon"></p><a href="vrpano_main.php" target="main">&#31649;&#29702;&#39033;&#30446;</a></li>
+                    <li class="cc"><p class="cc-icon"></p><a href="phpqrcode" target="main">&#20108;&#32500;&#30721;&#29983;&#25104;</a></li>
+                    <li class="dd"><p class="dd-icon"></p><a href="cl" target="main">&#39068;&#33394;&#36873;&#25321;&#22120;</a></li>
+                    <li class="ee"><p class="ee-icon"></p><a href="http://720.jum8.com/jiaocheng/" target="main">&#25805;&#20316;&#25945;&#31243;</a></li>
+                    <li class="ff"><p class="ff-icon"></p><a href="vrpano_spot_style.php" target="main">&#28909;&#28857;&#32032;&#26448;</a></li>
+                    <li class="gg"><p class="gg-icon"></p><a href="sys_admin_user.php" target="main">&#36134;&#25143;&#31649;&#29702;</a></li>
+                    <li class="hh"><p class="hh-icon"></p><a href="sys_data.php" target="main">&#25968;&#25454;&#24211;&#22791;&#20221;</a></li>
+                    <li class="ii"><p class="ii-icon"></p><a href="passport_code.php" target="main">&#25480;&#26435;&#30721;</a></li>
+                    <li class="jj"><p class="jj-icon"></p><a href="https://wx.qq.com/" target="_blank">&#24494;&#20449;&#32593;&#39029;&#29256;</a></li>
+                </ul>
+            </nav>
+
+
+            <div style="display:none" id="onoffbtn">
+                <div id="arrow"></div>
+                <div id="arrowtext">&#25910;&#36215;&#33756;&#21333;</div>
+            </div>
+
+        </div>
+        <div id="rightbox">
+            <iframe name="main" frameborder="0" scrolling="auto" src="vrpano_main.php" height="100%" width="100%" marginwidth="0" marginheight="0" allowtransparency="true"/></iframe>
+        </div>
+
+    </BODY>
+</HTML><!--Protected by Encrypt Web Pro, AllyNova.com, Inc.-->
