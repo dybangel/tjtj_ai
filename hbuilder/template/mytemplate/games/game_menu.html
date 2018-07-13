@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=">
+<TITLE>game_menu</TITLE>
+</HEAD>
+<BODY BODY SCROLL="no" bgcolor="#000000" topmargin="0" leftmargin="0">
+
+
+<!-- Copyright © 2005. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+<!-- <div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Verdana; font-size: 9pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
+’‚“≥±£¥Ê «”√ <a class="applink" href="http://www.spidersoft.com"><b>WebZIP 7.0.0.1025</b></a>  ‘⁄  07/04/18 18:50:25.<br>
+<b>µÿ÷∑:</b> <a class="info" href="http://192.168.1.231/game/game_menu.html">http://192.168.1.231/game/game_menu.html</a><br>
+<b>±ÍÃ‚:</b> game_menu &nbsp;&bull;&nbsp; <b>¥Û–°:</b> 2656 &nbsp;&bull;&nbsp; <b>◊Ó∫Û–ﬁ∏ƒ:</b> Mon, 12 Aug 2002 08:50:40 GMT<br></div>
+/Copyright © 2005. Spidersoft Ltd -->
+
+
+<SCRIPT LANGUAGE=VBScript.Encode>#@~^MQIAAA==@#@&@!Z O,@#@&i?!8P7WsEsxmhxE|o?;W:sCUNvAH.CV~^K:hl	[~,Az#mVPC.T/b@#@&7iWU,+MDWMPMn/!:nP	+aO@#@&di^l^VP7GsEsx|:nx;mGWo?;G:slU[vmWhhmx[~,CMod*@#@&ddik6~mK:hl	NxEkYlMOJ,YtU~@#@&did7PjnDPW/K~',Z.nmY+68N+^YvEUm.bwDkxTRwrV?z/D+h6(L+1OJ*@#@&i77d,/Y~N[x6/GRVnYUwn^blVoG^NnD,cqkU9WS/sKV9nD*P@#@&id77,0k^n/a+m,x~N9P3PE-dzkYn:'GVxnOcNVsE@#@&7di7,qW,`gWY,0kGRwks+A6rdD/`6rV/w^b#,K4+UP@#@&id7di-W^EhU|:+U;cMGYKoMlhPv #@#@&i7diP3Vk+@#@&iddi7\KVEsUm:x!R!WOGwDC:~`+#7@#@&dd77,2UN,r6@#@&idi2x9PbW@#@&d7db0~^K::mUN{J+XrOJ,Y4+UPAr	NGhcd+^0 ^^W/n@#@&dnx9~kE8@#@& O@*@#@&9J0AAA==^#~@</SCRIPT>
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+var InternetExplorer = navigator.appName.indexOf("Microsoft") != -1;
+// Handle all the the FSCommand messages in a Flash movie
+function volumn_menu_DoFSCommand(command, args) {
+  var volumn_menuObj = InternetExplorer ? volumn_menu : document.game_menu;
+  //
+    if (command=="openall"){
+	pop = window.open (args,"","fullscreen,scrollbars");}
+  //
+}
+// Hook for Internet Explorer 
+if (navigator.appName && navigator.appName.indexOf("Microsoft") != -1 && 
+	  navigator.userAgent.indexOf("Windows") != -1 && navigator.userAgent.indexOf("Windows 3.1") == -1) {
+	document.write('<SCRIPT LANGUAGE=VBScript\> \n');
+	document.write('on error resume next \n');
+	document.write('Sub game_menu_FSCommand(ByVal command, ByVal args)\n');
+	document.write('  call game_menu_DoFSCommand(command, args)\n');
+	document.write('end sub\n');
+	document.write('</SCRIPT\> \n');
+}
+//-->
+</SCRIPT>
+<!-- URL's used in the movie-->
+<A HREF=http://192.168.1.231/d_top_menu.html></A> <A HREF=book1/game1_1.swf></A> <A HREF=book1/game1_2.swf></A> <A HREF=book1/game1_3.swf></A> <A HREF=book1/game1_4.swf></A> <A HREF=></A> <!-- text used in the movie-->
+<!--Loading--><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ ID="volumn_menu" WIDTH="100%" HEIGHT="100%" ALIGN="">
+ <PARAM NAME=movie VALUE="game_menu.swf"> <PARAM NAME=menu VALUE=false> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> <EMBED src="game_menu.swf" menu=false quality=high bgcolor=#FFFFFF  WIDTH="100%" HEIGHT="100%" swLiveConnect=true ID="game_menu" NAME="game_menu" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>
