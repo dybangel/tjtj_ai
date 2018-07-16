@@ -1,0 +1,2 @@
+hello_rospy/src/beginner_tutorials:voice_system
+-DCATKIN_DEVEL_PREFIX=/root/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install -G Unix Makefiles

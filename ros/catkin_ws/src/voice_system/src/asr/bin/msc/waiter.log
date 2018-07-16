@@ -1,0 +1,2063 @@
+============================================================
+Time  2018/04/25 08:55:43 912 
+============================================================
+[2018/04/25 08:55:43 912] waiter     120  waiter loaded!  
+[2018/04/25 08:55:43 913] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:43 913] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 08:55:43 913] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:43 913] network    224  dns resp  10214  redns1  
+[2018/04/25 08:55:43 913] network    565  redns dns resp  table(9c006df0) 10214  nil  nil  
+[2018/04/25 08:55:44 122] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:44 122] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 08:55:44 122] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:44 123] network    224  dns resp  10214  redns2  
+[2018/04/25 08:55:44 123] network    565  redns dns resp  table(9c0170c0) 10214  nil  nil  
+[2018/04/25 08:55:44 334] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:44 334] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 08:55:44 334] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:44 335] network    224  dns resp  10214  redns3  
+[2018/04/25 08:55:44 335] network    565  redns dns resp  table(9c017590) 10214  nil  nil  
+[2018/04/25 08:55:44 546] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:44 546] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 08:55:44 546] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:44 547] network    224  dns resp  10214  redns4  
+[2018/04/25 08:55:44 547] network    565  redns dns resp  table(9c0175e0) 10214  nil  nil  
+[2018/04/25 08:55:44 758] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:44 759] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 08:55:44 759] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:44 759] network    224  dns resp  10214  redns5  
+[2018/04/25 08:55:44 760] network    565  redns dns resp  table(9c017bf0) 10214  nil  nil  
+[2018/04/25 08:55:44 909] waiter     183  start upload timer  
+[2018/04/25 08:55:44 909] waiter     184  false  
+[2018/04/25 08:55:44 909] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:44 970] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:44 970] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 08:55:44 970] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:44 971] network    224  dns resp  10214  redns6  
+[2018/04/25 08:55:44 971] network    565  redns dns resp  table(9c0183d0) 10214  nil  nil  
+[2018/04/25 08:55:45 182] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:45 183] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 08:55:45 183] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:45 184] network    224  dns resp  10214  redns7  
+[2018/04/25 08:55:45 184] network    565  redns dns resp  table(9c018170) 10214  nil  nil  
+[2018/04/25 08:55:45 394] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:45 394] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 08:55:45 394] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:45 395] network    224  dns resp  10214  redns8  
+[2018/04/25 08:55:45 395] network    565  redns dns resp  table(9c018a30) 10214  nil  nil  
+[2018/04/25 08:55:45 605] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:45 605] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 08:55:45 606] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:45 606] network    224  dns resp  10214  redns9  
+[2018/04/25 08:55:45 607] network    565  redns dns resp  table(9c018de0) 10214  nil  nil  
+[2018/04/25 08:55:45 818] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:45 818] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 08:55:45 819] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:45 819] network    224  dns resp  10214  redns10  
+[2018/04/25 08:55:45 820] network    565  redns dns resp  table(9c018e30) 10214  nil  nil  
+[2018/04/25 08:55:46 030] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:46 031] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 08:55:46 031] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:46 032] network    224  dns resp  10214  redns11  
+[2018/04/25 08:55:46 032] network    565  redns dns resp  table(9c02c740) 10214  nil  nil  
+[2018/04/25 08:55:46 242] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:46 243] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 08:55:46 243] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:46 244] network    224  dns resp  10214  redns12  
+[2018/04/25 08:55:46 244] network    565  redns dns resp  table(9c030af0) 10214  nil  nil  
+[2018/04/25 08:55:46 454] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:46 455] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 08:55:46 455] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:46 456] network    224  dns resp  10214  redns13  
+[2018/04/25 08:55:46 456] network    565  redns dns resp  table(9c02b420) 10214  nil  nil  
+[2018/04/25 08:55:46 666] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:46 666] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 08:55:46 666] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:46 667] network    224  dns resp  10214  redns14  
+[2018/04/25 08:55:46 667] network    565  redns dns resp  table(9c02b470) 10214  nil  nil  
+[2018/04/25 08:55:46 878] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:46 878] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 08:55:46 878] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:46 879] network    224  dns resp  10214  redns15  
+[2018/04/25 08:55:46 879] network    565  redns dns resp  table(9c0199c0) 10214  nil  nil  
+[2018/04/25 08:55:47 090] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:47 090] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 08:55:47 091] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:47 091] network    224  dns resp  10214  redns16  
+[2018/04/25 08:55:47 091] network    565  redns dns resp  table(9c019c90) 10214  nil  nil  
+[2018/04/25 08:55:47 302] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:47 303] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 08:55:47 303] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:47 304] network    224  dns resp  10214  redns17  
+[2018/04/25 08:55:47 304] network    565  redns dns resp  table(9c02d970) 10214  nil  nil  
+[2018/04/25 08:55:47 514] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:47 515] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 08:55:47 515] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:47 516] network    224  dns resp  10214  redns18  
+[2018/04/25 08:55:47 516] network    565  redns dns resp  table(9c02dd00) 10214  nil  nil  
+[2018/04/25 08:55:47 727] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:47 727] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 08:55:47 727] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:47 728] network    224  dns resp  10214  redns19  
+[2018/04/25 08:55:47 728] network    565  redns dns resp  table(9c02e110) 10214  nil  nil  
+[2018/04/25 08:55:47 940] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:47 940] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 08:55:47 940] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:47 941] network    224  dns resp  10214  redns20  
+[2018/04/25 08:55:47 941] network    565  redns dns resp  table(9c02e520) 10214  nil  nil  
+[2018/04/25 08:55:48 152] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:48 152] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 08:55:48 152] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:48 153] network    224  dns resp  10214  redns21  
+[2018/04/25 08:55:48 153] network    565  redns dns resp  table(9c02e930) 10214  nil  nil  
+[2018/04/25 08:55:48 364] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:48 364] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 08:55:48 365] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:48 365] network    224  dns resp  10214  redns22  
+[2018/04/25 08:55:48 366] network    565  redns dns resp  table(9c02c7e0) 10214  nil  nil  
+[2018/04/25 08:55:48 576] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:48 577] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2018/04/25 08:55:48 577] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:48 578] network    224  dns resp  10214  redns23  
+[2018/04/25 08:55:48 578] network    565  redns dns resp  table(9c03b130) 10214  nil  nil  
+[2018/04/25 08:55:48 788] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:48 788] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2018/04/25 08:55:48 788] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:48 789] network    224  dns resp  10214  redns24  
+[2018/04/25 08:55:48 789] network    565  redns dns resp  table(9c03b510) 10214  nil  nil  
+[2018/04/25 08:55:49 000] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:49 000] network    242  gethostbyname  open.xf-yun.com  redns25  
+[2018/04/25 08:55:49 001] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:49 001] network    224  dns resp  10214  redns25  
+[2018/04/25 08:55:49 002] network    565  redns dns resp  table(9c03b920) 10214  nil  nil  
+[2018/04/25 08:55:49 212] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:49 213] network    242  gethostbyname  open.xf-yun.com  redns26  
+[2018/04/25 08:55:49 213] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:49 214] network    224  dns resp  10214  redns26  
+[2018/04/25 08:55:49 214] network    565  redns dns resp  table(9c03bd30) 10214  nil  nil  
+[2018/04/25 08:55:49 425] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:55:49 425] network    242  gethostbyname  open.xf-yun.com  redns27  
+[2018/04/25 08:55:49 426] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:49 427] network    224  dns resp  10214  redns27  
+[2018/04/25 08:55:49 427] network    565  redns dns resp  table(9c03c140) 10214  nil  nil  
+[2018/04/25 08:55:49 428] network    821  update_iplist  
+[2018/04/25 08:55:49 428] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 08:55:49 429] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 08:55:49 429] network    242  gethostbyname  open.xf-yun.com  28  
+[2018/04/25 08:55:49 429] waiter     196  last gc at  1524617743  
+[2018/04/25 08:55:49 430] network    224  dns resp  10214  28  
+[2018/04/25 08:55:49 430] network    468  gethttpresp dns failed, err =   10214  
+[2018/04/25 08:55:49 430] network    740  update iplist http resp  table(9c03c7b0) 10214  nil  
+============================================================
+Time  2018/04/25 08:56:03 577 
+============================================================
+[2018/04/25 08:56:03 577] waiter     120  waiter loaded!  
+[2018/04/25 08:56:03 578] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:03 578] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 08:56:03 578] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:03 579] network    224  dns resp  10214  redns1  
+[2018/04/25 08:56:03 579] network    565  redns dns resp  table(dc006df0) 10214  nil  nil  
+[2018/04/25 08:56:03 786] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:03 786] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 08:56:03 786] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:03 787] network    224  dns resp  10214  redns2  
+[2018/04/25 08:56:03 787] network    565  redns dns resp  table(dc017020) 10214  nil  nil  
+[2018/04/25 08:56:03 995] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:03 995] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 08:56:03 995] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:03 996] network    224  dns resp  10214  redns3  
+[2018/04/25 08:56:03 996] network    565  redns dns resp  table(dc0174b0) 10214  nil  nil  
+[2018/04/25 08:56:04 208] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:04 208] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 08:56:04 208] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:04 209] network    224  dns resp  10214  redns4  
+[2018/04/25 08:56:04 209] network    565  redns dns resp  table(dc017500) 10214  nil  nil  
+[2018/04/25 08:56:04 420] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:04 421] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 08:56:04 421] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:04 421] network    224  dns resp  10214  redns5  
+[2018/04/25 08:56:04 421] network    565  redns dns resp  table(dc017c80) 10214  nil  nil  
+[2018/04/25 08:56:04 573] waiter     183  start upload timer  
+[2018/04/25 08:56:04 573] waiter     184  false  
+[2018/04/25 08:56:04 573] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:04 632] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:04 633] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 08:56:04 633] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:04 633] network    224  dns resp  10214  redns6  
+[2018/04/25 08:56:04 634] network    565  redns dns resp  table(dc018350) 10214  nil  nil  
+[2018/04/25 08:56:04 844] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:04 845] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 08:56:04 845] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:04 846] network    224  dns resp  10214  redns7  
+[2018/04/25 08:56:04 846] network    565  redns dns resp  table(dc017cd0) 10214  nil  nil  
+[2018/04/25 08:56:05 057] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:05 057] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 08:56:05 057] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:05 058] network    224  dns resp  10214  redns8  
+[2018/04/25 08:56:05 058] network    565  redns dns resp  table(dc018960) 10214  nil  nil  
+[2018/04/25 08:56:05 269] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:05 270] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 08:56:05 270] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:05 271] network    224  dns resp  10214  redns9  
+[2018/04/25 08:56:05 271] network    565  redns dns resp  table(dc0189b0) 10214  nil  nil  
+[2018/04/25 08:56:05 481] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:05 481] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 08:56:05 482] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:05 482] network    224  dns resp  10214  redns10  
+[2018/04/25 08:56:05 482] network    565  redns dns resp  table(dc019120) 10214  nil  nil  
+[2018/04/25 08:56:05 693] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:05 694] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 08:56:05 694] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:05 695] network    224  dns resp  10214  redns11  
+[2018/04/25 08:56:05 695] network    565  redns dns resp  table(dc019170) 10214  nil  nil  
+[2018/04/25 08:56:05 905] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:05 906] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 08:56:05 906] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:05 907] network    224  dns resp  10214  redns12  
+[2018/04/25 08:56:05 907] network    565  redns dns resp  table(dc030a80) 10214  nil  nil  
+[2018/04/25 08:56:06 118] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:06 118] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 08:56:06 118] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:06 119] network    224  dns resp  10214  redns13  
+[2018/04/25 08:56:06 119] network    565  redns dns resp  table(dc02b2b0) 10214  nil  nil  
+[2018/04/25 08:56:06 330] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:06 330] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 08:56:06 331] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:06 331] network    224  dns resp  10214  redns14  
+[2018/04/25 08:56:06 331] network    565  redns dns resp  table(dc005d50) 10214  nil  nil  
+[2018/04/25 08:56:06 542] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:06 542] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 08:56:06 543] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:06 543] network    224  dns resp  10214  redns15  
+[2018/04/25 08:56:06 543] network    565  redns dns resp  table(dc019830) 10214  nil  nil  
+[2018/04/25 08:56:06 754] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:06 755] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 08:56:06 755] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:06 756] network    224  dns resp  10214  redns16  
+[2018/04/25 08:56:06 756] network    565  redns dns resp  table(dc019c10) 10214  nil  nil  
+[2018/04/25 08:56:06 966] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:06 966] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 08:56:06 966] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:06 967] network    224  dns resp  10214  redns17  
+[2018/04/25 08:56:06 967] network    565  redns dns resp  table(dc019ff0) 10214  nil  nil  
+[2018/04/25 08:56:07 178] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:07 178] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 08:56:07 178] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:07 179] network    224  dns resp  10214  redns18  
+[2018/04/25 08:56:07 179] network    565  redns dns resp  table(dc01a040) 10214  nil  nil  
+[2018/04/25 08:56:07 390] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:07 390] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 08:56:07 390] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:07 391] network    224  dns resp  10214  redns19  
+[2018/04/25 08:56:07 391] network    565  redns dns resp  table(dc02e060) 10214  nil  nil  
+[2018/04/25 08:56:07 602] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:07 602] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 08:56:07 602] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:07 603] network    224  dns resp  10214  redns20  
+[2018/04/25 08:56:07 603] network    565  redns dns resp  table(dc02e0b0) 10214  nil  nil  
+[2018/04/25 08:56:07 814] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:07 814] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 08:56:07 814] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:07 815] network    224  dns resp  10214  redns21  
+[2018/04/25 08:56:07 815] network    565  redns dns resp  table(dc02e9a0) 10214  nil  nil  
+[2018/04/25 08:56:08 026] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:08 026] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 08:56:08 027] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:08 027] network    224  dns resp  10214  redns22  
+[2018/04/25 08:56:08 028] network    565  redns dns resp  table(dc02e2c0) 10214  nil  nil  
+[2018/04/25 08:56:08 239] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:08 239] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2018/04/25 08:56:08 239] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:08 240] network    224  dns resp  10214  redns23  
+[2018/04/25 08:56:08 240] network    565  redns dns resp  table(dc03b0a0) 10214  nil  nil  
+[2018/04/25 08:56:08 451] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:08 451] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2018/04/25 08:56:08 452] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:08 452] network    224  dns resp  10214  redns24  
+[2018/04/25 08:56:08 453] network    565  redns dns resp  table(dc03b480) 10214  nil  nil  
+[2018/04/25 08:56:08 663] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:08 663] network    242  gethostbyname  open.xf-yun.com  redns25  
+[2018/04/25 08:56:08 663] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:08 664] network    224  dns resp  10214  redns25  
+[2018/04/25 08:56:08 664] network    565  redns dns resp  table(dc03b8c0) 10214  nil  nil  
+[2018/04/25 08:56:08 874] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:08 874] network    242  gethostbyname  open.xf-yun.com  redns26  
+[2018/04/25 08:56:08 874] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:08 875] network    224  dns resp  10214  redns26  
+[2018/04/25 08:56:08 875] network    565  redns dns resp  table(dc03bcd0) 10214  nil  nil  
+[2018/04/25 08:56:09 086] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:09 087] network    242  gethostbyname  open.xf-yun.com  redns27  
+[2018/04/25 08:56:09 087] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:09 088] network    224  dns resp  10214  redns27  
+[2018/04/25 08:56:09 088] network    565  redns dns resp  table(dc03c0e0) 10214  nil  nil  
+[2018/04/25 08:56:09 090] network    821  update_iplist  
+[2018/04/25 08:56:09 090] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 08:56:09 090] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 08:56:09 090] network    242  gethostbyname  open.xf-yun.com  28  
+[2018/04/25 08:56:09 090] waiter     196  last gc at  1524617763  
+[2018/04/25 08:56:09 091] network    224  dns resp  10214  28  
+[2018/04/25 08:56:09 091] network    468  gethttpresp dns failed, err =   10214  
+[2018/04/25 08:56:09 091] network    740  update iplist http resp  table(dc03c780) 10214  nil  
+============================================================
+Time  2018/04/25 08:56:11 575 
+============================================================
+[2018/04/25 08:56:11 575] waiter     120  waiter loaded!  
+[2018/04/25 08:56:11 576] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:11 576] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 08:56:11 576] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:11 577] network    224  dns resp  10214  redns1  
+[2018/04/25 08:56:11 577] network    565  redns dns resp  table(cc006df0) 10214  nil  nil  
+[2018/04/25 08:56:11 785] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:11 785] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 08:56:11 785] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:11 786] network    224  dns resp  10214  redns2  
+[2018/04/25 08:56:11 786] network    565  redns dns resp  table(cc017000) 10214  nil  nil  
+[2018/04/25 08:56:11 997] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:11 998] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 08:56:11 998] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:11 998] network    224  dns resp  10214  redns3  
+[2018/04/25 08:56:11 999] network    565  redns dns resp  table(cc0174d0) 10214  nil  nil  
+[2018/04/25 08:56:12 208] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:12 209] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 08:56:12 209] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:12 210] network    224  dns resp  10214  redns4  
+[2018/04/25 08:56:12 210] network    565  redns dns resp  table(cc0178e0) 10214  nil  nil  
+[2018/04/25 08:56:12 420] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:12 421] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 08:56:12 421] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:12 422] network    224  dns resp  10214  redns5  
+[2018/04/25 08:56:12 422] network    565  redns dns resp  table(cc017930) 10214  nil  nil  
+[2018/04/25 08:56:12 568] waiter     183  start upload timer  
+[2018/04/25 08:56:12 568] waiter     184  false  
+[2018/04/25 08:56:12 569] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:12 631] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:12 632] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 08:56:12 632] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:12 633] network    224  dns resp  10214  redns6  
+[2018/04/25 08:56:12 633] network    565  redns dns resp  table(cc018330) 10214  nil  nil  
+[2018/04/25 08:56:12 842] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:12 843] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 08:56:12 843] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:12 844] network    224  dns resp  10214  redns7  
+[2018/04/25 08:56:12 844] network    565  redns dns resp  table(cc0180d0) 10214  nil  nil  
+[2018/04/25 08:56:13 055] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:13 055] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 08:56:13 055] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:13 056] network    224  dns resp  10214  redns8  
+[2018/04/25 08:56:13 056] network    565  redns dns resp  table(cc018120) 10214  nil  nil  
+[2018/04/25 08:56:13 267] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:13 268] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 08:56:13 268] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:13 268] network    224  dns resp  10214  redns9  
+[2018/04/25 08:56:13 269] network    565  redns dns resp  table(cc018d90) 10214  nil  nil  
+[2018/04/25 08:56:13 478] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:13 479] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 08:56:13 479] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:13 480] network    224  dns resp  10214  redns10  
+[2018/04/25 08:56:13 480] network    565  redns dns resp  table(cc018de0) 10214  nil  nil  
+[2018/04/25 08:56:13 691] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:13 691] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 08:56:13 691] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:13 692] network    224  dns resp  10214  redns11  
+[2018/04/25 08:56:13 692] network    565  redns dns resp  table(cc019550) 10214  nil  nil  
+[2018/04/25 08:56:13 903] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:13 903] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 08:56:13 903] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:13 904] network    224  dns resp  10214  redns12  
+[2018/04/25 08:56:13 905] network    565  redns dns resp  table(cc030af0) 10214  nil  nil  
+[2018/04/25 08:56:14 115] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:14 115] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 08:56:14 116] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:14 116] network    224  dns resp  10214  redns13  
+[2018/04/25 08:56:14 117] network    565  redns dns resp  table(cc030a50) 10214  nil  nil  
+[2018/04/25 08:56:14 327] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:14 327] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 08:56:14 328] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:14 328] network    224  dns resp  10214  redns14  
+[2018/04/25 08:56:14 328] network    565  redns dns resp  table(cc005cf0) 10214  nil  nil  
+[2018/04/25 08:56:14 539] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:14 539] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 08:56:14 540] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:14 540] network    224  dns resp  10214  redns15  
+[2018/04/25 08:56:14 540] network    565  redns dns resp  table(cc019820) 10214  nil  nil  
+[2018/04/25 08:56:14 752] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:14 752] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 08:56:14 752] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:14 753] network    224  dns resp  10214  redns16  
+[2018/04/25 08:56:14 753] network    565  redns dns resp  table(cc019bd0) 10214  nil  nil  
+[2018/04/25 08:56:14 964] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:14 964] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 08:56:14 964] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:14 965] network    224  dns resp  10214  redns17  
+[2018/04/25 08:56:14 965] network    565  redns dns resp  table(cc02da20) 10214  nil  nil  
+[2018/04/25 08:56:15 176] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:15 176] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 08:56:15 176] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:15 177] network    224  dns resp  10214  redns18  
+[2018/04/25 08:56:15 177] network    565  redns dns resp  table(cc02dc50) 10214  nil  nil  
+[2018/04/25 08:56:15 388] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:15 389] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 08:56:15 389] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:15 389] network    224  dns resp  10214  redns19  
+[2018/04/25 08:56:15 390] network    565  redns dns resp  table(cc02e090) 10214  nil  nil  
+[2018/04/25 08:56:15 601] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:15 601] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 08:56:15 601] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:15 602] network    224  dns resp  10214  redns20  
+[2018/04/25 08:56:15 602] network    565  redns dns resp  table(cc02e4a0) 10214  nil  nil  
+[2018/04/25 08:56:15 813] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:15 813] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 08:56:15 814] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:15 815] network    224  dns resp  10214  redns21  
+[2018/04/25 08:56:15 815] network    565  redns dns resp  table(cc02e8b0) 10214  nil  nil  
+[2018/04/25 08:56:16 025] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:16 026] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 08:56:16 026] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:16 027] network    224  dns resp  10214  redns22  
+[2018/04/25 08:56:16 027] network    565  redns dns resp  table(cc02c7e0) 10214  nil  nil  
+[2018/04/25 08:56:16 238] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:16 238] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2018/04/25 08:56:16 238] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:16 239] network    224  dns resp  10214  redns23  
+[2018/04/25 08:56:16 239] network    565  redns dns resp  table(cc03b130) 10214  nil  nil  
+[2018/04/25 08:56:16 450] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:16 450] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2018/04/25 08:56:16 450] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:16 451] network    224  dns resp  10214  redns24  
+[2018/04/25 08:56:16 451] network    565  redns dns resp  table(cc03b510) 10214  nil  nil  
+[2018/04/25 08:56:16 662] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:16 663] network    242  gethostbyname  open.xf-yun.com  redns25  
+[2018/04/25 08:56:16 663] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:16 664] network    224  dns resp  10214  redns25  
+[2018/04/25 08:56:16 664] network    565  redns dns resp  table(cc03b920) 10214  nil  nil  
+[2018/04/25 08:56:16 874] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:16 874] network    242  gethostbyname  open.xf-yun.com  redns26  
+[2018/04/25 08:56:16 874] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:16 875] network    224  dns resp  10214  redns26  
+[2018/04/25 08:56:16 875] network    565  redns dns resp  table(cc03bd30) 10214  nil  nil  
+[2018/04/25 08:56:17 086] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:56:17 086] network    242  gethostbyname  open.xf-yun.com  redns27  
+[2018/04/25 08:56:17 086] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:17 087] network    224  dns resp  10214  redns27  
+[2018/04/25 08:56:17 087] network    565  redns dns resp  table(cc03c110) 10214  nil  nil  
+[2018/04/25 08:56:17 089] network    821  update_iplist  
+[2018/04/25 08:56:17 089] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 08:56:17 089] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 08:56:17 089] network    242  gethostbyname  open.xf-yun.com  28  
+[2018/04/25 08:56:17 089] waiter     196  last gc at  1524617771  
+[2018/04/25 08:56:17 090] network    224  dns resp  10214  28  
+[2018/04/25 08:56:17 090] network    468  gethttpresp dns failed, err =   10214  
+[2018/04/25 08:56:17 090] network    740  update iplist http resp  table(cc03c7c0) 10214  nil  
+============================================================
+Time  2018/04/25 08:58:00 509 
+============================================================
+[2018/04/25 08:58:00 509] waiter     120  waiter loaded!  
+[2018/04/25 08:58:00 509] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:00 510] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 08:58:00 510] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:00 511] network    224  dns resp  10214  redns1  
+[2018/04/25 08:58:00 511] network    565  redns dns resp  table(6df0) 10214  nil  nil  
+[2018/04/25 08:58:00 720] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:00 721] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 08:58:00 721] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:00 722] network    224  dns resp  10214  redns2  
+[2018/04/25 08:58:00 722] network    565  redns dns resp  table(17090) 10214  nil  nil  
+[2018/04/25 08:58:00 932] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:00 932] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 08:58:00 932] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:00 933] network    224  dns resp  10214  redns3  
+[2018/04/25 08:58:00 933] network    565  redns dns resp  table(17520) 10214  nil  nil  
+[2018/04/25 08:58:01 143] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:01 144] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 08:58:01 144] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:01 145] network    224  dns resp  10214  redns4  
+[2018/04/25 08:58:01 145] network    565  redns dns resp  table(17930) 10214  nil  nil  
+[2018/04/25 08:58:01 355] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:01 355] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 08:58:01 355] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:01 356] network    224  dns resp  10214  redns5  
+[2018/04/25 08:58:01 356] network    565  redns dns resp  table(17d40) 10214  nil  nil  
+[2018/04/25 08:58:01 501] waiter     183  start upload timer  
+[2018/04/25 08:58:01 502] waiter     184  false  
+[2018/04/25 08:58:01 502] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:01 566] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:01 566] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 08:58:01 567] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:01 567] network    224  dns resp  10214  redns6  
+[2018/04/25 08:58:01 567] network    565  redns dns resp  table(17d90) 10214  nil  nil  
+[2018/04/25 08:58:01 779] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:01 779] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 08:58:01 779] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:01 780] network    224  dns resp  10214  redns7  
+[2018/04/25 08:58:01 780] network    565  redns dns resp  table(18630) 10214  nil  nil  
+[2018/04/25 08:58:01 991] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:01 992] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 08:58:01 992] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:01 993] network    224  dns resp  10214  redns8  
+[2018/04/25 08:58:01 993] network    565  redns dns resp  table(189e0) 10214  nil  nil  
+[2018/04/25 08:58:02 204] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:02 204] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 08:58:02 205] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:02 205] network    224  dns resp  10214  redns9  
+[2018/04/25 08:58:02 206] network    565  redns dns resp  table(18dc0) 10214  nil  nil  
+[2018/04/25 08:58:02 416] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:02 417] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 08:58:02 417] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:02 418] network    224  dns resp  10214  redns10  
+[2018/04/25 08:58:02 418] network    565  redns dns resp  table(19200) 10214  nil  nil  
+[2018/04/25 08:58:02 629] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:02 629] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 08:58:02 629] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:02 630] network    224  dns resp  10214  redns11  
+[2018/04/25 08:58:02 630] network    565  redns dns resp  table(2c740) 10214  nil  nil  
+[2018/04/25 08:58:02 843] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:02 843] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 08:58:02 843] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:02 844] network    224  dns resp  10214  redns12  
+[2018/04/25 08:58:02 844] network    565  redns dns resp  table(30af0) 10214  nil  nil  
+[2018/04/25 08:58:03 055] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:03 055] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 08:58:03 055] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:03 056] network    224  dns resp  10214  redns13  
+[2018/04/25 08:58:03 056] network    565  redns dns resp  table(2b420) 10214  nil  nil  
+[2018/04/25 08:58:03 268] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:03 268] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 08:58:03 268] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:03 269] network    224  dns resp  10214  redns14  
+[2018/04/25 08:58:03 269] network    565  redns dns resp  table(2b470) 10214  nil  nil  
+[2018/04/25 08:58:03 480] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:03 480] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 08:58:03 481] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:03 481] network    224  dns resp  10214  redns15  
+[2018/04/25 08:58:03 482] network    565  redns dns resp  table(199c0) 10214  nil  nil  
+[2018/04/25 08:58:03 693] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:03 693] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 08:58:03 694] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:03 695] network    224  dns resp  10214  redns16  
+[2018/04/25 08:58:03 695] network    565  redns dns resp  table(19c90) 10214  nil  nil  
+[2018/04/25 08:58:03 906] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:03 906] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 08:58:03 906] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:03 907] network    224  dns resp  10214  redns17  
+[2018/04/25 08:58:03 907] network    565  redns dns resp  table(2d970) 10214  nil  nil  
+[2018/04/25 08:58:04 118] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:04 118] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 08:58:04 119] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:04 119] network    224  dns resp  10214  redns18  
+[2018/04/25 08:58:04 119] network    565  redns dns resp  table(2dd00) 10214  nil  nil  
+[2018/04/25 08:58:04 331] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:04 331] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 08:58:04 331] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:04 332] network    224  dns resp  10214  redns19  
+[2018/04/25 08:58:04 332] network    565  redns dns resp  table(2e110) 10214  nil  nil  
+[2018/04/25 08:58:04 543] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:04 543] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 08:58:04 543] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:04 544] network    224  dns resp  10214  redns20  
+[2018/04/25 08:58:04 544] network    565  redns dns resp  table(2e520) 10214  nil  nil  
+[2018/04/25 08:58:04 755] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:04 756] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 08:58:04 756] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:04 757] network    224  dns resp  10214  redns21  
+[2018/04/25 08:58:04 757] network    565  redns dns resp  table(2e930) 10214  nil  nil  
+[2018/04/25 08:58:04 967] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:04 967] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 08:58:04 968] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:04 968] network    224  dns resp  10214  redns22  
+[2018/04/25 08:58:04 968] network    565  redns dns resp  table(2c7e0) 10214  nil  nil  
+[2018/04/25 08:58:05 179] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:05 179] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2018/04/25 08:58:05 180] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:05 180] network    224  dns resp  10214  redns23  
+[2018/04/25 08:58:05 180] network    565  redns dns resp  table(3b150) 10214  nil  nil  
+[2018/04/25 08:58:05 392] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:05 392] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2018/04/25 08:58:05 392] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:05 393] network    224  dns resp  10214  redns24  
+[2018/04/25 08:58:05 393] network    565  redns dns resp  table(3b590) 10214  nil  nil  
+[2018/04/25 08:58:05 605] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:05 605] network    242  gethostbyname  open.xf-yun.com  redns25  
+[2018/04/25 08:58:05 605] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:05 606] network    224  dns resp  10214  redns25  
+[2018/04/25 08:58:05 606] network    565  redns dns resp  table(3b9a0) 10214  nil  nil  
+[2018/04/25 08:58:05 818] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:05 818] network    242  gethostbyname  open.xf-yun.com  redns26  
+[2018/04/25 08:58:05 818] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:05 819] network    224  dns resp  10214  redns26  
+[2018/04/25 08:58:05 819] network    565  redns dns resp  table(3bdb0) 10214  nil  nil  
+[2018/04/25 08:58:06 029] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 08:58:06 029] network    242  gethostbyname  open.xf-yun.com  redns27  
+[2018/04/25 08:58:06 030] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:06 031] network    224  dns resp  10214  redns27  
+[2018/04/25 08:58:06 031] network    565  redns dns resp  table(3c1f0) 10214  nil  nil  
+[2018/04/25 08:58:06 033] network    821  update_iplist  
+[2018/04/25 08:58:06 033] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 08:58:06 033] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 08:58:06 033] network    242  gethostbyname  open.xf-yun.com  28  
+[2018/04/25 08:58:06 033] waiter     196  last gc at  1524617880  
+[2018/04/25 08:58:06 034] network    224  dns resp  10214  28  
+[2018/04/25 08:58:06 034] network    468  gethttpresp dns failed, err =   10214  
+[2018/04/25 08:58:06 034] network    740  update iplist http resp  table(3c840) 10214  nil  
+============================================================
+Time  2018/04/25 08:59:00 913 
+============================================================
+[2018/04/25 08:59:00 913] waiter     120  waiter loaded!  
+[2018/04/25 08:59:00 913] network    821  update_iplist  
+[2018/04/25 08:59:00 913] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 08:59:00 913] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 08:59:00 913] network    242  gethostbyname  open.xf-yun.com  1  
+[2018/04/25 08:59:00 914] waiter     196  last gc at  1524617940  
+[2018/04/25 08:59:00 914] network    821  update_iplist  
+[2018/04/25 08:59:00 914] waiter     196  last gc at  1524617940  
+[2018/04/25 08:59:00 939] network    224  dns resp  0  1  
+[2018/04/25 08:59:00 940] network    462  gethttpresp dns ok  42.62.116.35  
+[2018/04/25 08:59:00 940] network    423  gethttpresp2  42.62.116.35  80  2  
+[2018/04/25 08:59:00 940] network    440  prot_type  tcp  
+[2018/04/25 08:59:00 962] network    328  connected  2  
+[2018/04/25 08:59:00 962] network    331  send ok  92  2  
+[2018/04/25 08:59:00 997] network    340  readable  2  
+[2018/04/25 08:59:00 997] network    344  HTTP/1.1 200 OK
+Server: Nginx-XF/1.9.2-001
+Date: Wed, 25 Apr 2018 00:59:00 GMT
+Content-Type: text/plain
+Content-Length: 2517
+Last-Modified: Wed, 10 Jan 2018 03:14:58 GMT
+Connection: close
+ETag: "5a558532-9d5"
+Accept-Ranges: bytes
+
+{
+	"open.xf-yun.com":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248
+[2018/04/25 08:59:00 997] network    344  5","59.107.24.7","59.107.24.3","59.107.24.11","59.107.24.13","121.201.83.170","121.201.83.171"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"dev.voicecloud.cn":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248.245.151"]},
+      "gz":{"bgp":["59.107.24.5","59.107.24
+[2018/04/25 08:59:00 998] network    344  .13"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"show.openspeech.cn":{
+      "IDC":["bj"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"]}
+    },
+	"cmcc.lingxicloud.com":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    },
+    "lingxi.openspeech.cn":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    }
+}
+  
+[2018/04/25 08:59:00 998] network    740  update iplist http resp  table(e0016f50) 0  udata(e0005838) 
+[2018/04/25 08:59:00 998] network    748  update iplist ok  
+[2018/04/25 08:59:00 998] network    770  not encrypted!  
+[2018/04/25 08:59:01 000] network    658  open.xf-yun.com  
+[2018/04/25 08:59:01 000] network    669  bj  
+[2018/04/25 08:59:01 000] network    671  bj  
+[2018/04/25 08:59:01 000] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cm  117.121.56.3  
+[2018/04/25 08:59:01 001] network    93   iptoenv ,  ipcfg  open.xf-yun.com  ct  116.213.69.201  
+[2018/04/25 08:59:01 001] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cu  117.121.56.8  
+[2018/04/25 08:59:01 003] network    93   iptoenv ,  ipcfg  open.xf-yun.com  def  116.213.69.199  
+[2018/04/25 08:59:01 004] network    671  gz  
+[2018/04/25 08:59:01 004] network    671  hf  
+[2018/04/25 08:59:01 004] network    671  la  
+============================================================
+Time  2018/04/25 09:00:11 933 
+============================================================
+[2018/04/25 09:00:11 933] waiter     120  waiter loaded!  
+[2018/04/25 09:00:11 934] network    821  update_iplist  
+[2018/04/25 09:00:11 934] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 09:00:11 934] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 09:00:11 934] network    242  gethostbyname  open.xf-yun.com  1  
+[2018/04/25 09:00:11 934] waiter     196  last gc at  1524618011  
+[2018/04/25 09:00:11 937] network    821  update_iplist  
+[2018/04/25 09:00:11 937] waiter     196  last gc at  1524618011  
+[2018/04/25 09:00:11 951] network    224  dns resp  0  1  
+[2018/04/25 09:00:11 951] network    462  gethttpresp dns ok  42.62.116.35  
+[2018/04/25 09:00:11 951] network    423  gethttpresp2  42.62.116.35  80  2  
+[2018/04/25 09:00:11 951] network    440  prot_type  tcp  
+[2018/04/25 09:00:11 985] network    328  connected  2  
+[2018/04/25 09:00:11 987] network    331  send ok  92  2  
+[2018/04/25 09:00:12 024] network    340  readable  2  
+[2018/04/25 09:00:12 024] network    344  HTTP/1.1 200 OK
+Server: Nginx-XF/1.9.2-001
+Date: Wed, 25 Apr 2018 01:00:11 GMT
+Content-Type: text/plain
+Content-Length: 2517
+Last-Modified: Wed, 10 Jan 2018 03:14:58 GMT
+Connection: close
+ETag: "5a558532-9d5"
+Accept-Ranges: bytes
+
+{
+	"open.xf-yun.com":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248
+[2018/04/25 09:00:12 025] network    344  5","59.107.24.7","59.107.24.3","59.107.24.11","59.107.24.13","121.201.83.170","121.201.83.171"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"dev.voicecloud.cn":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248.245.151"]},
+      "gz":{"bgp":["59.107.24.5","59.107.24
+[2018/04/25 09:00:12 025] network    344  .13"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"show.openspeech.cn":{
+      "IDC":["bj"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"]}
+    },
+	"cmcc.lingxicloud.com":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    },
+    "lingxi.openspeech.cn":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    }
+}
+  
+[2018/04/25 09:00:12 025] network    740  update iplist http resp  table(a4016f80) 0  udata(a401a0f8) 
+[2018/04/25 09:00:12 026] network    748  update iplist ok  
+[2018/04/25 09:00:12 026] network    770  not encrypted!  
+[2018/04/25 09:00:12 029] network    658  open.xf-yun.com  
+[2018/04/25 09:00:12 030] network    669  bj  
+[2018/04/25 09:00:12 030] network    671  bj  
+[2018/04/25 09:00:12 030] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cm  117.121.56.3  
+[2018/04/25 09:00:12 030] network    93   iptoenv ,  ipcfg  open.xf-yun.com  ct  116.213.69.201  
+[2018/04/25 09:00:12 031] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cu  117.121.56.8  
+[2018/04/25 09:00:12 032] network    93   iptoenv ,  ipcfg  open.xf-yun.com  def  116.213.69.199  
+[2018/04/25 09:00:12 033] network    671  gz  
+[2018/04/25 09:00:12 033] network    671  hf  
+[2018/04/25 09:00:12 033] network    671  la  
+[2018/04/25 09:00:12 034] network    821  update_iplist  
+[2018/04/25 09:00:12 034] waiter     196  last gc at  1524618011  
+============================================================
+Time  2018/04/25 09:02:02 093 
+============================================================
+[2018/04/25 09:02:02 093] waiter     120  waiter loaded!  
+[2018/04/25 09:02:02 093] network    821  update_iplist  
+[2018/04/25 09:02:02 093] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 09:02:02 093] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 09:02:02 093] network    242  gethostbyname  open.xf-yun.com  1  
+[2018/04/25 09:02:02 094] waiter     196  last gc at  1524618122  
+[2018/04/25 09:02:02 096] network    821  update_iplist  
+[2018/04/25 09:02:02 096] waiter     196  last gc at  1524618122  
+[2018/04/25 09:02:02 105] network    224  dns resp  0  1  
+[2018/04/25 09:02:02 105] network    462  gethttpresp dns ok  42.62.116.18  
+[2018/04/25 09:02:02 105] network    423  gethttpresp2  42.62.116.18  80  2  
+[2018/04/25 09:02:02 105] network    440  prot_type  tcp  
+[2018/04/25 09:02:02 143] network    328  connected  2  
+[2018/04/25 09:02:02 143] network    331  send ok  92  2  
+[2018/04/25 09:02:02 169] network    340  readable  2  
+[2018/04/25 09:02:02 169] network    344  HTTP/1.1 200 OK
+Server: Nginx-XF/1.9.2-001
+Date: Wed, 25 Apr 2018 01:02:02 GMT
+Content-Type: text/plain
+Content-Length: 2517
+Last-Modified: Wed, 10 Jan 2018 03:14:58 GMT
+Connection: close
+ETag: "5a558532-9d5"
+Accept-Ranges: bytes
+
+{
+	"open.xf-yun.com":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248
+[2018/04/25 09:02:02 170] network    344  5","59.107.24.7","59.107.24.3","59.107.24.11","59.107.24.13","121.201.83.170","121.201.83.171"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"dev.voicecloud.cn":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248.245.151"]},
+      "gz":{"bgp":["59.107.24.5","59.107.24
+[2018/04/25 09:02:02 170] network    344  .13"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"show.openspeech.cn":{
+      "IDC":["bj"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"]}
+    },
+	"cmcc.lingxicloud.com":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    },
+    "lingxi.openspeech.cn":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    }
+}
+  
+[2018/04/25 09:02:02 171] network    740  update iplist http resp  table(6c016ef0) 0  udata(6c03c458) 
+[2018/04/25 09:02:02 171] network    748  update iplist ok  
+[2018/04/25 09:02:02 171] network    770  not encrypted!  
+[2018/04/25 09:02:02 174] network    658  open.xf-yun.com  
+[2018/04/25 09:02:02 174] network    669  bj  
+[2018/04/25 09:02:02 174] network    671  bj  
+[2018/04/25 09:02:02 174] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cm  117.121.56.3  
+[2018/04/25 09:02:02 175] network    93   iptoenv ,  ipcfg  open.xf-yun.com  ct  116.213.69.201  
+[2018/04/25 09:02:02 176] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cu  117.121.56.8  
+[2018/04/25 09:02:02 177] network    93   iptoenv ,  ipcfg  open.xf-yun.com  def  116.213.69.199  
+[2018/04/25 09:02:02 178] network    671  gz  
+[2018/04/25 09:02:02 178] network    671  hf  
+[2018/04/25 09:02:02 178] network    671  la  
+[2018/04/25 09:02:02 179] network    821  update_iplist  
+[2018/04/25 09:02:02 179] waiter     196  last gc at  1524618122  
+============================================================
+Time  2018/04/25 09:03:46 808 
+============================================================
+[2018/04/25 09:03:46 808] waiter     120  waiter loaded!  
+[2018/04/25 09:03:46 808] network    821  update_iplist  
+[2018/04/25 09:03:46 808] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 09:03:46 808] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 09:03:46 808] network    242  gethostbyname  open.xf-yun.com  1  
+[2018/04/25 09:03:46 808] waiter     196  last gc at  1524618226  
+[2018/04/25 09:03:46 815] network    821  update_iplist  
+[2018/04/25 09:03:46 815] waiter     196  last gc at  1524618226  
+[2018/04/25 09:03:46 831] network    224  dns resp  0  1  
+[2018/04/25 09:03:46 831] network    462  gethttpresp dns ok  42.62.116.18  
+[2018/04/25 09:03:46 831] network    423  gethttpresp2  42.62.116.18  80  2  
+[2018/04/25 09:03:46 832] network    440  prot_type  tcp  
+[2018/04/25 09:03:46 857] network    328  connected  2  
+[2018/04/25 09:03:46 858] network    331  send ok  92  2  
+[2018/04/25 09:03:46 893] network    340  readable  2  
+[2018/04/25 09:03:46 893] network    344  HTTP/1.1 200 OK
+Server: Nginx-XF/1.9.2-001
+Date: Wed, 25 Apr 2018 01:03:46 GMT
+Content-Type: text/plain
+Content-Length: 2517
+Last-Modified: Wed, 10 Jan 2018 03:14:58 GMT
+Connection: close
+ETag: "5a558532-9d5"
+Accept-Ranges: bytes
+
+{
+	"open.xf-yun.com":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248
+[2018/04/25 09:03:46 893] network    344  5","59.107.24.7","59.107.24.3","59.107.24.11","59.107.24.13","121.201.83.170","121.201.83.171"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"dev.voicecloud.cn":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248.245.151"]},
+      "gz":{"bgp":["59.107.24.5","59.107.24
+[2018/04/25 09:03:46 894] network    344  .13"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"show.openspeech.cn":{
+      "IDC":["bj"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"]}
+    },
+	"cmcc.lingxicloud.com":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    },
+    "lingxi.openspeech.cn":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    }
+}
+  
+[2018/04/25 09:03:46 894] network    740  update iplist http resp  table(44016f40) 0  udata(4401a058) 
+[2018/04/25 09:03:46 894] network    748  update iplist ok  
+[2018/04/25 09:03:46 895] network    770  not encrypted!  
+[2018/04/25 09:03:46 898] network    658  open.xf-yun.com  
+[2018/04/25 09:03:46 898] network    669  bj  
+[2018/04/25 09:03:46 898] network    671  bj  
+[2018/04/25 09:03:46 899] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cm  117.121.56.3  
+[2018/04/25 09:03:46 899] network    93   iptoenv ,  ipcfg  open.xf-yun.com  ct  116.213.69.201  
+[2018/04/25 09:03:46 901] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cu  117.121.56.8  
+[2018/04/25 09:03:46 902] network    93   iptoenv ,  ipcfg  open.xf-yun.com  def  116.213.69.199  
+[2018/04/25 09:03:46 903] network    671  gz  
+[2018/04/25 09:03:46 904] network    671  hf  
+[2018/04/25 09:03:46 904] network    671  la  
+============================================================
+Time  2018/04/25 17:13:56 349 
+============================================================
+[2018/04/25 17:13:56 349] waiter     120  waiter loaded!  
+[2018/04/25 17:13:56 366] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:56 366] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 17:13:56 366] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:56 367] network    224  dns resp  10214  redns1  
+[2018/04/25 17:13:56 367] network    565  redns dns resp  table(f8006df0) 10214  nil  nil  
+[2018/04/25 17:13:56 557] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:56 558] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 17:13:56 558] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:56 559] network    224  dns resp  10214  redns2  
+[2018/04/25 17:13:56 559] network    565  redns dns resp  table(f8017090) 10214  nil  nil  
+[2018/04/25 17:13:56 770] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:56 770] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 17:13:56 770] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:56 771] network    224  dns resp  10214  redns3  
+[2018/04/25 17:13:56 771] network    565  redns dns resp  table(f8017560) 10214  nil  nil  
+[2018/04/25 17:13:56 983] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:56 983] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 17:13:56 983] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:56 984] network    224  dns resp  10214  redns4  
+[2018/04/25 17:13:56 984] network    565  redns dns resp  table(f8017970) 10214  nil  nil  
+[2018/04/25 17:13:57 194] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:57 194] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 17:13:57 194] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:57 195] network    224  dns resp  10214  redns5  
+[2018/04/25 17:13:57 195] network    565  redns dns resp  table(f8017d20) 10214  nil  nil  
+[2018/04/25 17:13:57 407] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:57 407] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 17:13:57 407] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:57 408] network    224  dns resp  10214  redns6  
+[2018/04/25 17:13:57 408] network    565  redns dns resp  table(f8018100) 10214  nil  nil  
+[2018/04/25 17:13:57 619] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:57 619] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 17:13:57 619] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:57 620] network    224  dns resp  10214  redns7  
+[2018/04/25 17:13:57 620] network    565  redns dns resp  table(f80184e0) 10214  nil  nil  
+[2018/04/25 17:13:57 830] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:57 831] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 17:13:57 831] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:57 832] network    224  dns resp  10214  redns8  
+[2018/04/25 17:13:57 832] network    565  redns dns resp  table(f8018720) 10214  nil  nil  
+[2018/04/25 17:13:58 042] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:58 042] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 17:13:58 043] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:58 044] network    224  dns resp  10214  redns9  
+[2018/04/25 17:13:58 044] network    565  redns dns resp  table(f8018ca0) 10214  nil  nil  
+[2018/04/25 17:13:58 254] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:58 254] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 17:13:58 254] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:58 255] network    224  dns resp  10214  redns10  
+[2018/04/25 17:13:58 255] network    565  redns dns resp  table(f80190b0) 10214  nil  nil  
+[2018/04/25 17:13:58 466] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:58 466] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 17:13:58 466] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:58 467] network    224  dns resp  10214  redns11  
+[2018/04/25 17:13:58 467] network    565  redns dns resp  table(f802c740) 10214  nil  nil  
+[2018/04/25 17:13:58 680] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:58 680] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 17:13:58 681] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:58 681] network    224  dns resp  10214  redns12  
+[2018/04/25 17:13:58 681] network    565  redns dns resp  table(f8030af0) 10214  nil  nil  
+[2018/04/25 17:13:58 892] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:58 892] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 17:13:58 893] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:58 893] network    224  dns resp  10214  redns13  
+[2018/04/25 17:13:58 894] network    565  redns dns resp  table(f802b420) 10214  nil  nil  
+[2018/04/25 17:13:59 097] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:59 097] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 17:13:59 097] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:59 098] network    224  dns resp  10214  redns14  
+[2018/04/25 17:13:59 098] network    565  redns dns resp  table(f802b470) 10214  nil  nil  
+[2018/04/25 17:13:59 311] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:59 312] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 17:13:59 312] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:59 313] network    224  dns resp  10214  redns15  
+[2018/04/25 17:13:59 313] network    565  redns dns resp  table(f8019870) 10214  nil  nil  
+[2018/04/25 17:13:59 524] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:59 524] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 17:13:59 524] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:59 525] network    224  dns resp  10214  redns16  
+[2018/04/25 17:13:59 526] network    565  redns dns resp  table(f8019b40) 10214  nil  nil  
+[2018/04/25 17:13:59 737] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:59 737] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 17:13:59 737] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:59 738] network    224  dns resp  10214  redns17  
+[2018/04/25 17:13:59 738] network    565  redns dns resp  table(f801a0d0) 10214  nil  nil  
+[2018/04/25 17:13:59 949] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:13:59 949] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 17:13:59 950] waiter     196  last gc at  1524647636  
+[2018/04/25 17:13:59 950] network    224  dns resp  10214  redns18  
+[2018/04/25 17:13:59 950] network    565  redns dns resp  table(f802dba0) 10214  nil  nil  
+[2018/04/25 17:14:00 162] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:00 162] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 17:14:00 162] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:00 163] network    224  dns resp  10214  redns19  
+[2018/04/25 17:14:00 163] network    565  redns dns resp  table(f802dfb0) 10214  nil  nil  
+[2018/04/25 17:14:00 373] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:00 373] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 17:14:00 373] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:00 374] network    224  dns resp  10214  redns20  
+[2018/04/25 17:14:00 374] network    565  redns dns resp  table(f802e000) 10214  nil  nil  
+[2018/04/25 17:14:00 585] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:00 585] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 17:14:00 585] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:00 586] network    224  dns resp  10214  redns21  
+[2018/04/25 17:14:00 586] network    565  redns dns resp  table(f802e780) 10214  nil  nil  
+[2018/04/25 17:14:00 797] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:00 798] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 17:14:00 798] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:00 799] network    224  dns resp  10214  redns22  
+[2018/04/25 17:14:00 799] network    565  redns dns resp  table(f803ad10) 10214  nil  nil  
+[2018/04/25 17:14:01 009] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:01 009] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2018/04/25 17:14:01 009] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:01 010] network    224  dns resp  10214  redns23  
+[2018/04/25 17:14:01 010] network    565  redns dns resp  table(f8039430) 10214  nil  nil  
+[2018/04/25 17:14:01 221] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:01 221] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2018/04/25 17:14:01 222] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:01 222] network    224  dns resp  10214  redns24  
+[2018/04/25 17:14:01 222] network    565  redns dns resp  table(f803b470) 10214  nil  nil  
+[2018/04/25 17:14:01 434] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:01 434] network    242  gethostbyname  open.xf-yun.com  redns25  
+[2018/04/25 17:14:01 434] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:01 435] network    224  dns resp  10214  redns25  
+[2018/04/25 17:14:01 435] network    565  redns dns resp  table(f803b880) 10214  nil  nil  
+[2018/04/25 17:14:01 645] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:01 645] network    242  gethostbyname  open.xf-yun.com  redns26  
+[2018/04/25 17:14:01 645] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:01 646] network    224  dns resp  10214  redns26  
+[2018/04/25 17:14:01 646] network    565  redns dns resp  table(f803bc60) 10214  nil  nil  
+[2018/04/25 17:14:01 857] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:01 858] network    242  gethostbyname  open.xf-yun.com  redns27  
+[2018/04/25 17:14:01 858] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:01 859] network    224  dns resp  10214  redns27  
+[2018/04/25 17:14:01 859] network    565  redns dns resp  table(f803c0a0) 10214  nil  nil  
+[2018/04/25 17:14:01 861] network    821  update_iplist  
+[2018/04/25 17:14:01 861] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 17:14:01 861] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 17:14:01 861] network    242  gethostbyname  open.xf-yun.com  28  
+[2018/04/25 17:14:01 861] waiter     196  last gc at  1524647636  
+[2018/04/25 17:14:01 862] network    224  dns resp  10214  28  
+[2018/04/25 17:14:01 862] network    468  gethttpresp dns failed, err =   10214  
+[2018/04/25 17:14:01 862] network    740  update iplist http resp  table(f803c6c0) 10214  nil  
+============================================================
+Time  2018/04/25 17:14:30 899 
+============================================================
+[2018/04/25 17:14:30 899] waiter     120  waiter loaded!  
+[2018/04/25 17:14:30 900] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:30 900] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 17:14:30 900] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:30 900] network    224  dns resp  10214  redns1  
+[2018/04/25 17:14:30 900] network    565  redns dns resp  table(b8006df0) 10214  nil  nil  
+[2018/04/25 17:14:31 105] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:31 105] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 17:14:31 105] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:31 106] network    224  dns resp  10214  redns2  
+[2018/04/25 17:14:31 106] network    565  redns dns resp  table(b8017030) 10214  nil  nil  
+[2018/04/25 17:14:31 316] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:31 317] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 17:14:31 317] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:31 318] network    224  dns resp  10214  redns3  
+[2018/04/25 17:14:31 318] network    565  redns dns resp  table(b8017080) 10214  nil  nil  
+[2018/04/25 17:14:31 527] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:31 527] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 17:14:31 527] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:31 528] network    224  dns resp  10214  redns4  
+[2018/04/25 17:14:31 528] network    565  redns dns resp  table(b8017900) 10214  nil  nil  
+[2018/04/25 17:14:31 738] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:31 739] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 17:14:31 739] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:31 740] network    224  dns resp  10214  redns5  
+[2018/04/25 17:14:31 740] network    565  redns dns resp  table(b8017950) 10214  nil  nil  
+[2018/04/25 17:14:31 950] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:31 950] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 17:14:31 951] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:31 952] network    224  dns resp  10214  redns6  
+[2018/04/25 17:14:31 952] network    565  redns dns resp  table(b80180c0) 10214  nil  nil  
+[2018/04/25 17:14:32 163] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:32 164] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 17:14:32 164] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:32 164] network    224  dns resp  10214  redns7  
+[2018/04/25 17:14:32 165] network    565  redns dns resp  table(b8018110) 10214  nil  nil  
+[2018/04/25 17:14:32 376] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:32 376] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 17:14:32 376] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:32 377] network    224  dns resp  10214  redns8  
+[2018/04/25 17:14:32 377] network    565  redns dns resp  table(b80188c0) 10214  nil  nil  
+[2018/04/25 17:14:32 588] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:32 588] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 17:14:32 588] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:32 589] network    224  dns resp  10214  redns9  
+[2018/04/25 17:14:32 589] network    565  redns dns resp  table(b8018910) 10214  nil  nil  
+[2018/04/25 17:14:32 800] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:32 800] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 17:14:32 800] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:32 801] network    224  dns resp  10214  redns10  
+[2018/04/25 17:14:32 801] network    565  redns dns resp  table(b8019080) 10214  nil  nil  
+[2018/04/25 17:14:33 012] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:33 012] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 17:14:33 013] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:33 013] network    224  dns resp  10214  redns11  
+[2018/04/25 17:14:33 013] network    565  redns dns resp  table(b80190d0) 10214  nil  nil  
+[2018/04/25 17:14:33 222] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:33 222] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 17:14:33 222] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:33 223] network    224  dns resp  10214  redns12  
+[2018/04/25 17:14:33 223] network    565  redns dns resp  table(b80194b0) 10214  nil  nil  
+[2018/04/25 17:14:33 433] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:33 433] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 17:14:33 434] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:33 434] network    224  dns resp  10214  redns13  
+[2018/04/25 17:14:33 435] network    565  redns dns resp  table(b802b370) 10214  nil  nil  
+[2018/04/25 17:14:33 644] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:33 645] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 17:14:33 645] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:33 646] network    224  dns resp  10214  redns14  
+[2018/04/25 17:14:33 646] network    565  redns dns resp  table(b8005ca0) 10214  nil  nil  
+[2018/04/25 17:14:33 855] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:33 856] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 17:14:33 856] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:33 857] network    224  dns resp  10214  redns15  
+[2018/04/25 17:14:33 857] network    565  redns dns resp  table(b8005f60) 10214  nil  nil  
+[2018/04/25 17:14:34 067] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:34 068] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 17:14:34 068] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:34 069] network    224  dns resp  10214  redns16  
+[2018/04/25 17:14:34 069] network    565  redns dns resp  table(b8019b10) 10214  nil  nil  
+[2018/04/25 17:14:34 279] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:34 279] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 17:14:34 279] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:34 280] network    224  dns resp  10214  redns17  
+[2018/04/25 17:14:34 281] network    565  redns dns resp  table(b8019b60) 10214  nil  nil  
+[2018/04/25 17:14:34 493] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:34 493] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 17:14:34 493] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:34 494] network    224  dns resp  10214  redns18  
+[2018/04/25 17:14:34 494] network    565  redns dns resp  table(b802dba0) 10214  nil  nil  
+[2018/04/25 17:14:34 702] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:34 703] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 17:14:34 703] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:34 703] network    224  dns resp  10214  redns19  
+[2018/04/25 17:14:34 703] network    565  redns dns resp  table(b802dbf0) 10214  nil  nil  
+[2018/04/25 17:14:34 913] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:34 913] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 17:14:34 913] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:34 914] network    224  dns resp  10214  redns20  
+[2018/04/25 17:14:34 914] network    565  redns dns resp  table(b802e300) 10214  nil  nil  
+[2018/04/25 17:14:35 125] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:35 125] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 17:14:35 126] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:35 126] network    224  dns resp  10214  redns21  
+[2018/04/25 17:14:35 126] network    565  redns dns resp  table(b802e380) 10214  nil  nil  
+[2018/04/25 17:14:35 337] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:35 337] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 17:14:35 338] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:35 338] network    224  dns resp  10214  redns22  
+[2018/04/25 17:14:35 338] network    565  redns dns resp  table(b803aca0) 10214  nil  nil  
+[2018/04/25 17:14:35 548] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:35 549] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2018/04/25 17:14:35 549] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:35 549] network    224  dns resp  10214  redns23  
+[2018/04/25 17:14:35 550] network    565  redns dns resp  table(b8030ad0) 10214  nil  nil  
+[2018/04/25 17:14:35 757] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:35 758] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2018/04/25 17:14:35 758] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:35 758] network    224  dns resp  10214  redns24  
+[2018/04/25 17:14:35 759] network    565  redns dns resp  table(b803b350) 10214  nil  nil  
+[2018/04/25 17:14:35 969] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:35 969] network    242  gethostbyname  open.xf-yun.com  redns25  
+[2018/04/25 17:14:35 969] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:35 970] network    224  dns resp  10214  redns25  
+[2018/04/25 17:14:35 970] network    565  redns dns resp  table(b803b760) 10214  nil  nil  
+[2018/04/25 17:14:36 181] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:36 182] network    242  gethostbyname  open.xf-yun.com  redns26  
+[2018/04/25 17:14:36 182] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:36 183] network    224  dns resp  10214  redns26  
+[2018/04/25 17:14:36 183] network    565  redns dns resp  table(b803bb40) 10214  nil  nil  
+[2018/04/25 17:14:36 393] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:14:36 393] network    242  gethostbyname  open.xf-yun.com  redns27  
+[2018/04/25 17:14:36 393] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:36 395] network    224  dns resp  10214  redns27  
+[2018/04/25 17:14:36 395] network    565  redns dns resp  table(b803bf80) 10214  nil  nil  
+[2018/04/25 17:14:36 396] network    821  update_iplist  
+[2018/04/25 17:14:36 396] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 17:14:36 396] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 17:14:36 396] network    242  gethostbyname  open.xf-yun.com  28  
+[2018/04/25 17:14:36 396] waiter     196  last gc at  1524647670  
+[2018/04/25 17:14:36 397] network    224  dns resp  10214  28  
+[2018/04/25 17:14:36 397] network    468  gethttpresp dns failed, err =   10214  
+[2018/04/25 17:14:36 397] network    740  update iplist http resp  table(b803c620) 10214  nil  
+============================================================
+Time  2018/04/25 17:19:32 234 
+============================================================
+[2018/04/25 17:19:32 234] waiter     120  waiter loaded!  
+[2018/04/25 17:19:32 235] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:32 235] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 17:19:32 235] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:32 236] network    224  dns resp  10214  redns1  
+[2018/04/25 17:19:32 236] network    565  redns dns resp  table(24006df0) 10214  nil  nil  
+[2018/04/25 17:19:32 442] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:32 443] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 17:19:32 443] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:32 444] network    224  dns resp  10214  redns2  
+[2018/04/25 17:19:32 444] network    565  redns dns resp  table(240170d0) 10214  nil  nil  
+[2018/04/25 17:19:32 654] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:32 654] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 17:19:32 654] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:32 655] network    224  dns resp  10214  redns3  
+[2018/04/25 17:19:32 655] network    565  redns dns resp  table(24017120) 10214  nil  nil  
+[2018/04/25 17:19:32 865] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:32 865] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 17:19:32 865] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:32 866] network    224  dns resp  10214  redns4  
+[2018/04/25 17:19:32 866] network    565  redns dns resp  table(24017960) 10214  nil  nil  
+[2018/04/25 17:19:33 076] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:33 077] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 17:19:33 077] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:33 078] network    224  dns resp  10214  redns5  
+[2018/04/25 17:19:33 078] network    565  redns dns resp  table(240179b0) 10214  nil  nil  
+[2018/04/25 17:19:33 221] waiter     183  start upload timer  
+[2018/04/25 17:19:33 221] waiter     184  false  
+[2018/04/25 17:19:33 221] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:33 287] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:33 287] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 17:19:33 288] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:33 288] network    224  dns resp  10214  redns6  
+[2018/04/25 17:19:33 289] network    565  redns dns resp  table(24018330) 10214  nil  nil  
+[2018/04/25 17:19:33 499] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:33 499] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 17:19:33 499] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:33 500] network    224  dns resp  10214  redns7  
+[2018/04/25 17:19:33 500] network    565  redns dns resp  table(240180d0) 10214  nil  nil  
+[2018/04/25 17:19:33 711] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:33 711] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 17:19:33 712] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:33 712] network    224  dns resp  10214  redns8  
+[2018/04/25 17:19:33 712] network    565  redns dns resp  table(240189d0) 10214  nil  nil  
+[2018/04/25 17:19:33 923] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:33 923] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 17:19:33 924] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:33 924] network    224  dns resp  10214  redns9  
+[2018/04/25 17:19:33 924] network    565  redns dns resp  table(24018a20) 10214  nil  nil  
+[2018/04/25 17:19:34 136] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:34 136] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 17:19:34 136] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:34 137] network    224  dns resp  10214  redns10  
+[2018/04/25 17:19:34 137] network    565  redns dns resp  table(24019190) 10214  nil  nil  
+[2018/04/25 17:19:34 347] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:34 347] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 17:19:34 347] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:34 348] network    224  dns resp  10214  redns11  
+[2018/04/25 17:19:34 348] network    565  redns dns resp  table(240191e0) 10214  nil  nil  
+[2018/04/25 17:19:34 559] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:34 559] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 17:19:34 559] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:34 560] network    224  dns resp  10214  redns12  
+[2018/04/25 17:19:34 560] network    565  redns dns resp  table(24019600) 10214  nil  nil  
+[2018/04/25 17:19:34 771] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:34 771] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 17:19:34 771] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:34 772] network    224  dns resp  10214  redns13  
+[2018/04/25 17:19:34 772] network    565  redns dns resp  table(2402b4f0) 10214  nil  nil  
+[2018/04/25 17:19:34 983] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:34 983] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 17:19:34 983] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:34 984] network    224  dns resp  10214  redns14  
+[2018/04/25 17:19:34 984] network    565  redns dns resp  table(24005f90) 10214  nil  nil  
+[2018/04/25 17:19:35 194] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:35 194] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 17:19:35 195] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:35 195] network    224  dns resp  10214  redns15  
+[2018/04/25 17:19:35 195] network    565  redns dns resp  table(24019880) 10214  nil  nil  
+[2018/04/25 17:19:35 406] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:35 406] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 17:19:35 406] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:35 407] network    224  dns resp  10214  redns16  
+[2018/04/25 17:19:35 407] network    565  redns dns resp  table(24019c30) 10214  nil  nil  
+[2018/04/25 17:19:35 618] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:35 618] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 17:19:35 618] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:35 619] network    224  dns resp  10214  redns17  
+[2018/04/25 17:19:35 619] network    565  redns dns resp  table(2401a010) 10214  nil  nil  
+[2018/04/25 17:19:35 830] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:35 830] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 17:19:35 830] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:35 831] network    224  dns resp  10214  redns18  
+[2018/04/25 17:19:35 831] network    565  redns dns resp  table(2402dcb0) 10214  nil  nil  
+[2018/04/25 17:19:36 042] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:36 042] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 17:19:36 043] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:36 043] network    224  dns resp  10214  redns19  
+[2018/04/25 17:19:36 043] network    565  redns dns resp  table(2402e0c0) 10214  nil  nil  
+[2018/04/25 17:19:36 254] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:36 255] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 17:19:36 255] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:36 256] network    224  dns resp  10214  redns20  
+[2018/04/25 17:19:36 256] network    565  redns dns resp  table(2402e4d0) 10214  nil  nil  
+[2018/04/25 17:19:36 467] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:36 467] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 17:19:36 467] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:36 468] network    224  dns resp  10214  redns21  
+[2018/04/25 17:19:36 468] network    565  redns dns resp  table(2402e9e0) 10214  nil  nil  
+[2018/04/25 17:19:36 677] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:36 678] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 17:19:36 678] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:36 679] network    224  dns resp  10214  redns22  
+[2018/04/25 17:19:36 679] network    565  redns dns resp  table(2402df40) 10214  nil  nil  
+[2018/04/25 17:19:36 889] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:36 889] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2018/04/25 17:19:36 890] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:36 890] network    224  dns resp  10214  redns23  
+[2018/04/25 17:19:36 890] network    565  redns dns resp  table(2403b090) 10214  nil  nil  
+[2018/04/25 17:19:37 101] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:37 102] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2018/04/25 17:19:37 102] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:37 103] network    224  dns resp  10214  redns24  
+[2018/04/25 17:19:37 103] network    565  redns dns resp  table(2403b4d0) 10214  nil  nil  
+[2018/04/25 17:19:37 313] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:37 313] network    242  gethostbyname  open.xf-yun.com  redns25  
+[2018/04/25 17:19:37 313] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:37 314] network    224  dns resp  10214  redns25  
+[2018/04/25 17:19:37 314] network    565  redns dns resp  table(2403b8e0) 10214  nil  nil  
+[2018/04/25 17:19:37 525] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:37 525] network    242  gethostbyname  open.xf-yun.com  redns26  
+[2018/04/25 17:19:37 525] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:37 526] network    224  dns resp  10214  redns26  
+[2018/04/25 17:19:37 526] network    565  redns dns resp  table(2403bcf0) 10214  nil  nil  
+[2018/04/25 17:19:37 737] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:37 737] network    242  gethostbyname  open.xf-yun.com  redns27  
+[2018/04/25 17:19:37 738] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:37 739] network    224  dns resp  10214  redns27  
+[2018/04/25 17:19:37 739] network    565  redns dns resp  table(2403c100) 10214  nil  nil  
+[2018/04/25 17:19:37 740] network    821  update_iplist  
+[2018/04/25 17:19:37 740] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 17:19:37 741] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 17:19:37 741] network    242  gethostbyname  open.xf-yun.com  28  
+[2018/04/25 17:19:37 741] waiter     196  last gc at  1524647972  
+[2018/04/25 17:19:37 742] network    224  dns resp  10214  28  
+[2018/04/25 17:19:37 742] network    468  gethttpresp dns failed, err =   10214  
+[2018/04/25 17:19:37 742] network    740  update iplist http resp  table(2403c750) 10214  nil  
+============================================================
+Time  2018/04/25 17:19:42 028 
+============================================================
+[2018/04/25 17:19:42 028] waiter     120  waiter loaded!  
+[2018/04/25 17:19:42 028] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:42 028] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 17:19:42 028] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:42 029] network    224  dns resp  10214  redns1  
+[2018/04/25 17:19:42 029] network    565  redns dns resp  table(50006df0) 10214  nil  nil  
+[2018/04/25 17:19:42 236] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:42 237] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 17:19:42 237] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:42 238] network    224  dns resp  10214  redns2  
+[2018/04/25 17:19:42 238] network    565  redns dns resp  table(50017110) 10214  nil  nil  
+[2018/04/25 17:19:42 448] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:42 448] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 17:19:42 449] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:42 449] network    224  dns resp  10214  redns3  
+[2018/04/25 17:19:42 449] network    565  redns dns resp  table(500175e0) 10214  nil  nil  
+[2018/04/25 17:19:42 659] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:42 659] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 17:19:42 659] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:42 660] network    224  dns resp  10214  redns4  
+[2018/04/25 17:19:42 660] network    565  redns dns resp  table(50017630) 10214  nil  nil  
+[2018/04/25 17:19:42 871] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:42 871] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 17:19:42 872] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:42 872] network    224  dns resp  10214  redns5  
+[2018/04/25 17:19:42 872] network    565  redns dns resp  table(50017d60) 10214  nil  nil  
+[2018/04/25 17:19:43 024] waiter     183  start upload timer  
+[2018/04/25 17:19:43 024] waiter     184  false  
+[2018/04/25 17:19:43 024] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:43 083] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:43 083] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 17:19:43 083] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:43 084] network    224  dns resp  10214  redns6  
+[2018/04/25 17:19:43 084] network    565  redns dns resp  table(50018400) 10214  nil  nil  
+[2018/04/25 17:19:43 295] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:43 295] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 17:19:43 295] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:43 296] network    224  dns resp  10214  redns7  
+[2018/04/25 17:19:43 296] network    565  redns dns resp  table(50017db0) 10214  nil  nil  
+[2018/04/25 17:19:43 507] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:43 507] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 17:19:43 507] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:43 508] network    224  dns resp  10214  redns8  
+[2018/04/25 17:19:43 508] network    565  redns dns resp  table(50018a30) 10214  nil  nil  
+[2018/04/25 17:19:43 719] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:43 719] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 17:19:43 719] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:43 720] network    224  dns resp  10214  redns9  
+[2018/04/25 17:19:43 720] network    565  redns dns resp  table(50018a80) 10214  nil  nil  
+[2018/04/25 17:19:43 931] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:43 931] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 17:19:43 931] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:43 932] network    224  dns resp  10214  redns10  
+[2018/04/25 17:19:43 932] network    565  redns dns resp  table(500191f0) 10214  nil  nil  
+[2018/04/25 17:19:44 143] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:44 143] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 17:19:44 143] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:44 144] network    224  dns resp  10214  redns11  
+[2018/04/25 17:19:44 144] network    565  redns dns resp  table(50019240) 10214  nil  nil  
+[2018/04/25 17:19:44 355] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:44 355] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 17:19:44 355] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:44 356] network    224  dns resp  10214  redns12  
+[2018/04/25 17:19:44 356] network    565  redns dns resp  table(50019620) 10214  nil  nil  
+[2018/04/25 17:19:44 567] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:44 567] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 17:19:44 567] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:44 568] network    224  dns resp  10214  redns13  
+[2018/04/25 17:19:44 568] network    565  redns dns resp  table(5002b370) 10214  nil  nil  
+[2018/04/25 17:19:44 779] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:44 779] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 17:19:44 779] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:44 780] network    224  dns resp  10214  redns14  
+[2018/04/25 17:19:44 780] network    565  redns dns resp  table(50005f60) 10214  nil  nil  
+[2018/04/25 17:19:44 991] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:44 991] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 17:19:44 991] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:44 992] network    224  dns resp  10214  redns15  
+[2018/04/25 17:19:44 992] network    565  redns dns resp  table(500198a0) 10214  nil  nil  
+[2018/04/25 17:19:45 203] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:45 203] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 17:19:45 204] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:45 204] network    224  dns resp  10214  redns16  
+[2018/04/25 17:19:45 204] network    565  redns dns resp  table(500198f0) 10214  nil  nil  
+[2018/04/25 17:19:45 414] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:45 415] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 17:19:45 415] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:45 416] network    224  dns resp  10214  redns17  
+[2018/04/25 17:19:45 416] network    565  redns dns resp  table(5001a060) 10214  nil  nil  
+[2018/04/25 17:19:45 626] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:45 626] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 17:19:45 626] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:45 627] network    224  dns resp  10214  redns18  
+[2018/04/25 17:19:45 627] network    565  redns dns resp  table(5002dc70) 10214  nil  nil  
+[2018/04/25 17:19:45 838] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:45 838] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 17:19:45 838] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:45 839] network    224  dns resp  10214  redns19  
+[2018/04/25 17:19:45 839] network    565  redns dns resp  table(5002e050) 10214  nil  nil  
+[2018/04/25 17:19:46 049] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:46 050] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 17:19:46 050] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:46 051] network    224  dns resp  10214  redns20  
+[2018/04/25 17:19:46 051] network    565  redns dns resp  table(5002e490) 10214  nil  nil  
+[2018/04/25 17:19:46 261] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:46 262] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 17:19:46 262] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:46 263] network    224  dns resp  10214  redns21  
+[2018/04/25 17:19:46 263] network    565  redns dns resp  table(5002e8a0) 10214  nil  nil  
+[2018/04/25 17:19:46 473] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:46 473] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 17:19:46 474] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:46 474] network    224  dns resp  10214  redns22  
+[2018/04/25 17:19:46 474] network    565  redns dns resp  table(5003ac90) 10214  nil  nil  
+[2018/04/25 17:19:46 685] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:46 686] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2018/04/25 17:19:46 686] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:46 686] network    224  dns resp  10214  redns23  
+[2018/04/25 17:19:46 687] network    565  redns dns resp  table(5003b0b0) 10214  nil  nil  
+[2018/04/25 17:19:46 897] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:46 897] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2018/04/25 17:19:46 898] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:46 898] network    224  dns resp  10214  redns24  
+[2018/04/25 17:19:46 899] network    565  redns dns resp  table(5003b4c0) 10214  nil  nil  
+[2018/04/25 17:19:47 109] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:47 109] network    242  gethostbyname  open.xf-yun.com  redns25  
+[2018/04/25 17:19:47 109] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:47 110] network    224  dns resp  10214  redns25  
+[2018/04/25 17:19:47 110] network    565  redns dns resp  table(5003b8d0) 10214  nil  nil  
+[2018/04/25 17:19:47 321] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:47 321] network    242  gethostbyname  open.xf-yun.com  redns26  
+[2018/04/25 17:19:47 321] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:47 322] network    224  dns resp  10214  redns26  
+[2018/04/25 17:19:47 322] network    565  redns dns resp  table(5003bce0) 10214  nil  nil  
+[2018/04/25 17:19:47 533] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:47 533] network    242  gethostbyname  open.xf-yun.com  redns27  
+[2018/04/25 17:19:47 533] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:47 534] network    224  dns resp  10214  redns27  
+[2018/04/25 17:19:47 534] network    565  redns dns resp  table(5003c120) 10214  nil  nil  
+[2018/04/25 17:19:47 536] network    821  update_iplist  
+[2018/04/25 17:19:47 536] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 17:19:47 536] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 17:19:47 536] network    242  gethostbyname  open.xf-yun.com  28  
+[2018/04/25 17:19:47 537] waiter     196  last gc at  1524647982  
+[2018/04/25 17:19:47 537] network    224  dns resp  10214  28  
+[2018/04/25 17:19:47 537] network    468  gethttpresp dns failed, err =   10214  
+[2018/04/25 17:19:47 537] network    740  update iplist http resp  table(5003c740) 10214  nil  
+============================================================
+Time  2018/04/25 17:19:59 911 
+============================================================
+[2018/04/25 17:19:59 911] waiter     120  waiter loaded!  
+[2018/04/25 17:19:59 911] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:19:59 911] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 17:19:59 911] waiter     196  last gc at  1524647999  
+[2018/04/25 17:19:59 912] network    224  dns resp  10214  redns1  
+[2018/04/25 17:19:59 912] network    565  redns dns resp  table(c0006df0) 10214  nil  nil  
+[2018/04/25 17:20:00 119] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:00 120] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 17:20:00 120] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:00 120] network    224  dns resp  10214  redns2  
+[2018/04/25 17:20:00 120] network    565  redns dns resp  table(c0017090) 10214  nil  nil  
+[2018/04/25 17:20:00 331] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:00 332] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 17:20:00 332] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:00 333] network    224  dns resp  10214  redns3  
+[2018/04/25 17:20:00 333] network    565  redns dns resp  table(c0017560) 10214  nil  nil  
+[2018/04/25 17:20:00 541] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:00 541] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 17:20:00 541] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:00 542] network    224  dns resp  10214  redns4  
+[2018/04/25 17:20:00 542] network    565  redns dns resp  table(c00175b0) 10214  nil  nil  
+[2018/04/25 17:20:00 753] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:00 754] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 17:20:00 754] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:00 755] network    224  dns resp  10214  redns5  
+[2018/04/25 17:20:00 755] network    565  redns dns resp  table(c0005810) 10214  nil  nil  
+[2018/04/25 17:20:00 904] waiter     183  start upload timer  
+[2018/04/25 17:20:00 904] waiter     184  false  
+[2018/04/25 17:20:00 904] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:00 964] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:00 964] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 17:20:00 965] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:00 965] network    224  dns resp  10214  redns6  
+[2018/04/25 17:20:00 965] network    565  redns dns resp  table(c0017f70) 10214  nil  nil  
+[2018/04/25 17:20:01 176] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:01 177] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 17:20:01 177] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:01 178] network    224  dns resp  10214  redns7  
+[2018/04/25 17:20:01 178] network    565  redns dns resp  table(c00185a0) 10214  nil  nil  
+[2018/04/25 17:20:01 388] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:01 389] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 17:20:01 389] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:01 390] network    224  dns resp  10214  redns8  
+[2018/04/25 17:20:01 390] network    565  redns dns resp  table(c0018950) 10214  nil  nil  
+[2018/04/25 17:20:01 600] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:01 600] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 17:20:01 600] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:01 601] network    224  dns resp  10214  redns9  
+[2018/04/25 17:20:01 601] network    565  redns dns resp  table(c0018d00) 10214  nil  nil  
+[2018/04/25 17:20:01 812] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:01 812] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 17:20:01 812] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:01 813] network    224  dns resp  10214  redns10  
+[2018/04/25 17:20:01 813] network    565  redns dns resp  table(c0019140) 10214  nil  nil  
+[2018/04/25 17:20:02 024] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:02 024] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 17:20:02 024] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:02 025] network    224  dns resp  10214  redns11  
+[2018/04/25 17:20:02 025] network    565  redns dns resp  table(c002c740) 10214  nil  nil  
+[2018/04/25 17:20:02 236] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:02 236] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 17:20:02 237] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:02 237] network    224  dns resp  10214  redns12  
+[2018/04/25 17:20:02 238] network    565  redns dns resp  table(c0030af0) 10214  nil  nil  
+[2018/04/25 17:20:02 448] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:02 449] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 17:20:02 449] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:02 450] network    224  dns resp  10214  redns13  
+[2018/04/25 17:20:02 450] network    565  redns dns resp  table(c002b420) 10214  nil  nil  
+[2018/04/25 17:20:02 659] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:02 659] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 17:20:02 659] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:02 660] network    224  dns resp  10214  redns14  
+[2018/04/25 17:20:02 660] network    565  redns dns resp  table(c002b470) 10214  nil  nil  
+[2018/04/25 17:20:02 871] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:02 871] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 17:20:02 872] waiter     196  last gc at  1524647999  
+[2018/04/25 17:20:02 872] network    224  dns resp  10214  redns15  
+[2018/04/25 17:20:02 872] network    565  redns dns resp  table(c0019900) 10214  nil  nil  
+============================================================
+Time  2018/04/25 17:20:05 521 
+============================================================
+[2018/04/25 17:20:05 521] waiter     120  waiter loaded!  
+[2018/04/25 17:20:05 521] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:05 521] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 17:20:05 521] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:05 522] network    224  dns resp  10214  redns1  
+[2018/04/25 17:20:05 522] network    565  redns dns resp  table(20006df0) 10214  nil  nil  
+[2018/04/25 17:20:05 730] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:05 730] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 17:20:05 730] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:05 731] network    224  dns resp  10214  redns2  
+[2018/04/25 17:20:05 731] network    565  redns dns resp  table(200170d0) 10214  nil  nil  
+[2018/04/25 17:20:05 941] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:05 941] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 17:20:05 941] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:05 942] network    224  dns resp  10214  redns3  
+[2018/04/25 17:20:05 942] network    565  redns dns resp  table(200175a0) 10214  nil  nil  
+[2018/04/25 17:20:06 152] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:06 152] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 17:20:06 152] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:06 153] network    224  dns resp  10214  redns4  
+[2018/04/25 17:20:06 153] network    565  redns dns resp  table(200179b0) 10214  nil  nil  
+[2018/04/25 17:20:06 363] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:06 363] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 17:20:06 363] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:06 364] network    224  dns resp  10214  redns5  
+[2018/04/25 17:20:06 364] network    565  redns dns resp  table(20017a00) 10214  nil  nil  
+[2018/04/25 17:20:06 516] waiter     183  start upload timer  
+[2018/04/25 17:20:06 516] waiter     184  false  
+[2018/04/25 17:20:06 516] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:06 574] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:06 574] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 17:20:06 574] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:06 575] network    224  dns resp  10214  redns6  
+[2018/04/25 17:20:06 575] network    565  redns dns resp  table(200183d0) 10214  nil  nil  
+[2018/04/25 17:20:06 785] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:06 785] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 17:20:06 785] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:06 786] network    224  dns resp  10214  redns7  
+[2018/04/25 17:20:06 786] network    565  redns dns resp  table(20018170) 10214  nil  nil  
+[2018/04/25 17:20:06 996] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:06 997] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 17:20:06 997] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:06 997] network    224  dns resp  10214  redns8  
+[2018/04/25 17:20:06 998] network    565  redns dns resp  table(20018a70) 10214  nil  nil  
+[2018/04/25 17:20:07 209] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:07 209] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 17:20:07 209] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:07 210] network    224  dns resp  10214  redns9  
+[2018/04/25 17:20:07 210] network    565  redns dns resp  table(20018e20) 10214  nil  nil  
+[2018/04/25 17:20:07 420] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:07 420] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 17:20:07 421] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:07 421] network    224  dns resp  10214  redns10  
+[2018/04/25 17:20:07 421] network    565  redns dns resp  table(20019260) 10214  nil  nil  
+[2018/04/25 17:20:07 632] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:07 633] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 17:20:07 633] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:07 634] network    224  dns resp  10214  redns11  
+[2018/04/25 17:20:07 634] network    565  redns dns resp  table(2002c740) 10214  nil  nil  
+[2018/04/25 17:20:07 844] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:07 845] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 17:20:07 845] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:07 846] network    224  dns resp  10214  redns12  
+[2018/04/25 17:20:07 846] network    565  redns dns resp  table(20030af0) 10214  nil  nil  
+[2018/04/25 17:20:08 056] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:08 057] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 17:20:08 057] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:08 058] network    224  dns resp  10214  redns13  
+[2018/04/25 17:20:08 058] network    565  redns dns resp  table(2002b420) 10214  nil  nil  
+[2018/04/25 17:20:08 268] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:08 268] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 17:20:08 269] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:08 269] network    224  dns resp  10214  redns14  
+[2018/04/25 17:20:08 269] network    565  redns dns resp  table(2002b470) 10214  nil  nil  
+[2018/04/25 17:20:08 479] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:08 480] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 17:20:08 480] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:08 481] network    224  dns resp  10214  redns15  
+[2018/04/25 17:20:08 481] network    565  redns dns resp  table(20019a20) 10214  nil  nil  
+[2018/04/25 17:20:08 690] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:08 690] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 17:20:08 690] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:08 691] network    224  dns resp  10214  redns16  
+[2018/04/25 17:20:08 691] network    565  redns dns resp  table(20019cf0) 10214  nil  nil  
+[2018/04/25 17:20:08 900] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:20:08 901] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 17:20:08 901] waiter     196  last gc at  1524648005  
+[2018/04/25 17:20:08 902] network    224  dns resp  10214  redns17  
+[2018/04/25 17:20:08 902] network    565  redns dns resp  table(2001a0d0) 10214  nil  nil  
+============================================================
+Time  2018/04/25 17:21:44 899 
+============================================================
+[2018/04/25 17:21:44 899] waiter     120  waiter loaded!  
+[2018/04/25 17:21:44 899] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:44 899] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 17:21:44 899] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:44 900] network    224  dns resp  10214  redns1  
+[2018/04/25 17:21:44 900] network    565  redns dns resp  table(84006df0) 10214  nil  nil  
+[2018/04/25 17:21:45 111] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:45 111] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 17:21:45 111] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:45 112] network    224  dns resp  10214  redns2  
+[2018/04/25 17:21:45 112] network    565  redns dns resp  table(840170b0) 10214  nil  nil  
+[2018/04/25 17:21:45 323] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:45 323] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 17:21:45 323] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:45 324] network    224  dns resp  10214  redns3  
+[2018/04/25 17:21:45 324] network    565  redns dns resp  table(840174f0) 10214  nil  nil  
+[2018/04/25 17:21:45 535] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:45 536] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 17:21:45 536] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:45 537] network    224  dns resp  10214  redns4  
+[2018/04/25 17:21:45 537] network    565  redns dns resp  table(84017900) 10214  nil  nil  
+[2018/04/25 17:21:45 747] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:45 747] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 17:21:45 747] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:45 748] network    224  dns resp  10214  redns5  
+[2018/04/25 17:21:45 748] network    565  redns dns resp  table(84017b10) 10214  nil  nil  
+[2018/04/25 17:21:45 895] waiter     183  start upload timer  
+[2018/04/25 17:21:45 895] waiter     184  false  
+[2018/04/25 17:21:45 895] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:45 959] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:45 960] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 17:21:45 960] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:45 961] network    224  dns resp  10214  redns6  
+[2018/04/25 17:21:45 961] network    565  redns dns resp  table(84018090) 10214  nil  nil  
+[2018/04/25 17:21:46 172] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:46 172] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 17:21:46 172] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:46 173] network    224  dns resp  10214  redns7  
+[2018/04/25 17:21:46 173] network    565  redns dns resp  table(840180e0) 10214  nil  nil  
+[2018/04/25 17:21:46 384] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:46 384] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 17:21:46 384] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:46 385] network    224  dns resp  10214  redns8  
+[2018/04/25 17:21:46 385] network    565  redns dns resp  table(840189e0) 10214  nil  nil  
+[2018/04/25 17:21:46 596] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:46 596] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 17:21:46 596] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:46 597] network    224  dns resp  10214  redns9  
+[2018/04/25 17:21:46 597] network    565  redns dns resp  table(84018a30) 10214  nil  nil  
+[2018/04/25 17:21:46 808] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:46 808] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 17:21:46 808] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:46 809] network    224  dns resp  10214  redns10  
+[2018/04/25 17:21:46 809] network    565  redns dns resp  table(840191a0) 10214  nil  nil  
+[2018/04/25 17:21:47 020] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:47 020] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 17:21:47 020] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:47 021] network    224  dns resp  10214  redns11  
+[2018/04/25 17:21:47 021] network    565  redns dns resp  table(840191f0) 10214  nil  nil  
+[2018/04/25 17:21:47 232] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:47 232] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 17:21:47 233] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:47 233] network    224  dns resp  10214  redns12  
+[2018/04/25 17:21:47 234] network    565  redns dns resp  table(84019610) 10214  nil  nil  
+[2018/04/25 17:21:47 443] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:47 443] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 17:21:47 443] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:47 444] network    224  dns resp  10214  redns13  
+[2018/04/25 17:21:47 444] network    565  redns dns resp  table(8402b370) 10214  nil  nil  
+[2018/04/25 17:21:47 654] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:47 655] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 17:21:47 655] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:47 656] network    224  dns resp  10214  redns14  
+[2018/04/25 17:21:47 656] network    565  redns dns resp  table(84005f60) 10214  nil  nil  
+[2018/04/25 17:21:47 866] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:47 866] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 17:21:47 866] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:47 867] network    224  dns resp  10214  redns15  
+[2018/04/25 17:21:47 867] network    565  redns dns resp  table(84019890) 10214  nil  nil  
+[2018/04/25 17:21:48 077] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:48 077] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 17:21:48 077] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:48 078] network    224  dns resp  10214  redns16  
+[2018/04/25 17:21:48 078] network    565  redns dns resp  table(840198e0) 10214  nil  nil  
+[2018/04/25 17:21:48 289] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:48 289] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 17:21:48 289] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:48 290] network    224  dns resp  10214  redns17  
+[2018/04/25 17:21:48 290] network    565  redns dns resp  table(8401a050) 10214  nil  nil  
+[2018/04/25 17:21:48 501] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:48 502] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 17:21:48 502] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:48 503] network    224  dns resp  10214  redns18  
+[2018/04/25 17:21:48 503] network    565  redns dns resp  table(8401a0a0) 10214  nil  nil  
+[2018/04/25 17:21:48 713] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:48 714] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 17:21:48 714] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:48 715] network    224  dns resp  10214  redns19  
+[2018/04/25 17:21:48 715] network    565  redns dns resp  table(8402e040) 10214  nil  nil  
+[2018/04/25 17:21:48 925] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:48 925] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 17:21:48 925] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:48 926] network    224  dns resp  10214  redns20  
+[2018/04/25 17:21:48 926] network    565  redns dns resp  table(8402e480) 10214  nil  nil  
+[2018/04/25 17:21:49 137] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:49 138] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 17:21:49 138] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:49 139] network    224  dns resp  10214  redns21  
+[2018/04/25 17:21:49 139] network    565  redns dns resp  table(8402e890) 10214  nil  nil  
+[2018/04/25 17:21:49 349] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:21:49 350] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 17:21:49 350] waiter     196  last gc at  1524648104  
+[2018/04/25 17:21:49 350] network    224  dns resp  10214  redns22  
+[2018/04/25 17:21:49 351] network    565  redns dns resp  table(8402e710) 10214  nil  nil  
+============================================================
+Time  2018/04/25 17:23:52 636 
+============================================================
+[2018/04/25 17:23:52 636] waiter     120  waiter loaded!  
+[2018/04/25 17:23:52 637] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:52 637] network    242  gethostbyname  open.xf-yun.com  redns1  
+[2018/04/25 17:23:52 637] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:52 637] network    224  dns resp  10214  redns1  
+[2018/04/25 17:23:52 637] network    565  redns dns resp  table(c4006df0) 10214  nil  nil  
+[2018/04/25 17:23:52 846] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:52 846] network    242  gethostbyname  open.xf-yun.com  redns2  
+[2018/04/25 17:23:52 847] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:52 847] network    224  dns resp  10214  redns2  
+[2018/04/25 17:23:52 847] network    565  redns dns resp  table(c4017150) 10214  nil  nil  
+[2018/04/25 17:23:53 058] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:53 058] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2018/04/25 17:23:53 058] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:53 059] network    224  dns resp  10214  redns3  
+[2018/04/25 17:23:53 059] network    565  redns dns resp  table(c4017620) 10214  nil  nil  
+[2018/04/25 17:23:53 269] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:53 269] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2018/04/25 17:23:53 270] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:53 270] network    224  dns resp  10214  redns4  
+[2018/04/25 17:23:53 271] network    565  redns dns resp  table(c4017a30) 10214  nil  nil  
+[2018/04/25 17:23:53 482] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:53 482] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2018/04/25 17:23:53 482] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:53 483] network    224  dns resp  10214  redns5  
+[2018/04/25 17:23:53 483] network    565  redns dns resp  table(c4017a80) 10214  nil  nil  
+[2018/04/25 17:23:53 693] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:53 693] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2018/04/25 17:23:53 694] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:53 694] network    224  dns resp  10214  redns6  
+[2018/04/25 17:23:53 694] network    565  redns dns resp  table(c4018190) 10214  nil  nil  
+[2018/04/25 17:23:53 906] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:53 906] network    242  gethostbyname  open.xf-yun.com  redns7  
+[2018/04/25 17:23:53 906] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:53 907] network    224  dns resp  10214  redns7  
+[2018/04/25 17:23:53 907] network    565  redns dns resp  table(c40181e0) 10214  nil  nil  
+[2018/04/25 17:23:54 118] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:54 118] network    242  gethostbyname  open.xf-yun.com  redns8  
+[2018/04/25 17:23:54 118] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:54 119] network    224  dns resp  10214  redns8  
+[2018/04/25 17:23:54 119] network    565  redns dns resp  table(c4018950) 10214  nil  nil  
+[2018/04/25 17:23:54 329] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:54 329] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2018/04/25 17:23:54 330] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:54 330] network    224  dns resp  10214  redns9  
+[2018/04/25 17:23:54 331] network    565  redns dns resp  table(c40189a0) 10214  nil  nil  
+[2018/04/25 17:23:54 541] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:54 541] network    242  gethostbyname  open.xf-yun.com  redns10  
+[2018/04/25 17:23:54 541] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:54 542] network    224  dns resp  10214  redns10  
+[2018/04/25 17:23:54 542] network    565  redns dns resp  table(c4019110) 10214  nil  nil  
+[2018/04/25 17:23:54 753] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:54 754] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2018/04/25 17:23:54 754] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:54 754] network    224  dns resp  10214  redns11  
+[2018/04/25 17:23:54 755] network    565  redns dns resp  table(c4019160) 10214  nil  nil  
+[2018/04/25 17:23:54 965] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:54 965] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2018/04/25 17:23:54 966] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:54 967] network    224  dns resp  10214  redns12  
+[2018/04/25 17:23:54 967] network    565  redns dns resp  table(c4030a80) 10214  nil  nil  
+[2018/04/25 17:23:55 176] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:55 176] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2018/04/25 17:23:55 177] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:55 177] network    224  dns resp  10214  redns13  
+[2018/04/25 17:23:55 177] network    565  redns dns resp  table(c402b4d0) 10214  nil  nil  
+[2018/04/25 17:23:55 388] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:55 388] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2018/04/25 17:23:55 389] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:55 389] network    224  dns resp  10214  redns14  
+[2018/04/25 17:23:55 389] network    565  redns dns resp  table(c4005cf0) 10214  nil  nil  
+[2018/04/25 17:23:55 600] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:55 600] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2018/04/25 17:23:55 601] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:55 601] network    224  dns resp  10214  redns15  
+[2018/04/25 17:23:55 601] network    565  redns dns resp  table(c4019820) 10214  nil  nil  
+[2018/04/25 17:23:55 812] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:55 812] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2018/04/25 17:23:55 812] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:55 813] network    224  dns resp  10214  redns16  
+[2018/04/25 17:23:55 813] network    565  redns dns resp  table(c4019870) 10214  nil  nil  
+[2018/04/25 17:23:56 026] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:56 026] network    242  gethostbyname  open.xf-yun.com  redns17  
+[2018/04/25 17:23:56 026] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:56 027] network    224  dns resp  10214  redns17  
+[2018/04/25 17:23:56 027] network    565  redns dns resp  table(c401a0b0) 10214  nil  nil  
+[2018/04/25 17:23:56 239] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:56 239] network    242  gethostbyname  open.xf-yun.com  redns18  
+[2018/04/25 17:23:56 239] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:56 240] network    224  dns resp  10214  redns18  
+[2018/04/25 17:23:56 240] network    565  redns dns resp  table(c402dbf0) 10214  nil  nil  
+[2018/04/25 17:23:56 455] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:56 455] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2018/04/25 17:23:56 455] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:56 456] network    224  dns resp  10214  redns19  
+[2018/04/25 17:23:56 456] network    565  redns dns resp  table(c402dc40) 10214  nil  nil  
+[2018/04/25 17:23:56 667] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:56 667] network    242  gethostbyname  open.xf-yun.com  redns20  
+[2018/04/25 17:23:56 667] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:56 668] network    224  dns resp  10214  redns20  
+[2018/04/25 17:23:56 668] network    565  redns dns resp  table(c402e410) 10214  nil  nil  
+[2018/04/25 17:23:56 879] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:56 879] network    242  gethostbyname  open.xf-yun.com  redns21  
+[2018/04/25 17:23:56 880] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:56 880] network    224  dns resp  10214  redns21  
+[2018/04/25 17:23:56 881] network    565  redns dns resp  table(c402e490) 10214  nil  nil  
+[2018/04/25 17:23:57 091] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:57 092] network    242  gethostbyname  open.xf-yun.com  redns22  
+[2018/04/25 17:23:57 092] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:57 093] network    224  dns resp  10214  redns22  
+[2018/04/25 17:23:57 093] network    565  redns dns resp  table(c403ac70) 10214  nil  nil  
+[2018/04/25 17:23:57 303] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:57 303] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2018/04/25 17:23:57 303] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:57 304] network    224  dns resp  10214  redns23  
+[2018/04/25 17:23:57 304] network    565  redns dns resp  table(c402c7e0) 10214  nil  nil  
+[2018/04/25 17:23:57 514] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:57 515] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2018/04/25 17:23:57 515] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:57 516] network    224  dns resp  10214  redns24  
+[2018/04/25 17:23:57 516] network    565  redns dns resp  table(c403b380) 10214  nil  nil  
+[2018/04/25 17:23:57 725] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:57 726] network    242  gethostbyname  open.xf-yun.com  redns25  
+[2018/04/25 17:23:57 726] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:57 727] network    224  dns resp  10214  redns25  
+[2018/04/25 17:23:57 727] network    565  redns dns resp  table(c403b790) 10214  nil  nil  
+[2018/04/25 17:23:57 937] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:57 937] network    242  gethostbyname  open.xf-yun.com  redns26  
+[2018/04/25 17:23:57 938] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:57 938] network    224  dns resp  10214  redns26  
+[2018/04/25 17:23:57 938] network    565  redns dns resp  table(c403bba0) 10214  nil  nil  
+[2018/04/25 17:23:58 149] network    594  redns  def  open.xf-yun.com  
+[2018/04/25 17:23:58 149] network    242  gethostbyname  open.xf-yun.com  redns27  
+[2018/04/25 17:23:58 149] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:58 150] network    224  dns resp  10214  redns27  
+[2018/04/25 17:23:58 151] network    565  redns dns resp  table(c403bf80) 10214  nil  nil  
+[2018/04/25 17:23:58 152] network    821  update_iplist  
+[2018/04/25 17:23:58 152] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 17:23:58 153] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 17:23:58 153] network    242  gethostbyname  open.xf-yun.com  28  
+[2018/04/25 17:23:58 153] waiter     196  last gc at  1524648232  
+[2018/04/25 17:23:58 153] network    224  dns resp  10214  28  
+[2018/04/25 17:23:58 153] network    468  gethttpresp dns failed, err =   10214  
+[2018/04/25 17:23:58 154] network    740  update iplist http resp  table(c403c630) 10214  nil  
+============================================================
+Time  2018/04/25 17:25:32 469 
+============================================================
+[2018/04/25 17:25:32 469] waiter     120  waiter loaded!  
+[2018/04/25 17:25:32 469] network    821  update_iplist  
+[2018/04/25 17:25:32 469] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  nil  
+[2018/04/25 17:25:32 469] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2018/04/25 17:25:32 470] network    242  gethostbyname  open.xf-yun.com  1  
+[2018/04/25 17:25:32 470] waiter     196  last gc at  1524648332  
+[2018/04/25 17:25:32 472] network    821  update_iplist  
+[2018/04/25 17:25:32 472] waiter     196  last gc at  1524648332  
+[2018/04/25 17:25:32 474] network    224  dns resp  0  1  
+[2018/04/25 17:25:32 474] network    462  gethttpresp dns ok  42.62.116.18  
+[2018/04/25 17:25:32 474] network    423  gethttpresp2  42.62.116.18  80  2  
+[2018/04/25 17:25:32 474] network    440  prot_type  tcp  
+[2018/04/25 17:25:32 512] network    328  connected  2  
+[2018/04/25 17:25:32 512] network    331  send ok  92  2  
+[2018/04/25 17:25:32 546] network    340  readable  2  
+[2018/04/25 17:25:32 546] network    344  HTTP/1.1 200 OK
+Server: Nginx-XF/1.9.2-001
+Date: Wed, 25 Apr 2018 09:25:32 GMT
+Content-Type: text/plain
+Content-Length: 2517
+Last-Modified: Wed, 10 Jan 2018 03:14:58 GMT
+Connection: close
+ETag: "5a558532-9d5"
+Accept-Ranges: bytes
+
+{
+	"open.xf-yun.com":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248
+[2018/04/25 17:25:32 546] network    344  5","59.107.24.7","59.107.24.3","59.107.24.11","59.107.24.13","121.201.83.170","121.201.83.171"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"dev.voicecloud.cn":{
+      "IDC":["bj","gz","hf","la"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"],
+            "cm":["117.121.56.3"],
+            "ct":["116.213.69.201"],
+            "cu":["117.121.56.8"]},
+      "hf":{"bgp":["220.178.7.101","60.166.12.146","220.178.7.102"],
+            "cm":["120.193.118.6","120.193.118.11"],
+            "ct":["60.166.12.146","220.178.7.102","220.178.7.101"],
+            "cu":["220.248.245.146","220.248.245.151"]},
+      "gz":{"bgp":["59.107.24.5","59.107.24
+[2018/04/25 17:25:32 547] network    344  .13"],
+			"ct":["124.172.193.220"]},
+      "la":{"bgp":["104.201.33.10","104.201.33.140"]}
+	},
+	"show.openspeech.cn":{
+      "IDC":["bj"],
+      "bj":{"bgp":["116.213.69.199","116.213.69.200","117.121.56.3","116.213.69.195","116.213.69.201","117.121.56.8","117.121.21.146","117.121.21.147","117.121.21.148","117.121.21.149","117.121.21.150","117.121.4.242","117.121.48.3","117.121.13.226","42.62.42.10","42.62.42.18","42.62.116.18","42.62.116.34","42.62.116.35","42.62.116.42"]}
+    },
+	"cmcc.lingxicloud.com":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    },
+    "lingxi.openspeech.cn":{
+      "IDC":["gz"],
+      "gz":{"bgp":["120.197.234.165","120.197.234.167"]}
+    }
+}
+  
+[2018/04/25 17:25:32 547] network    740  update iplist http resp  table(54016f30) 0  udata(54018388) 
+[2018/04/25 17:25:32 547] network    748  update iplist ok  
+[2018/04/25 17:25:32 547] network    770  not encrypted!  
+[2018/04/25 17:25:32 548] network    658  open.xf-yun.com  
+[2018/04/25 17:25:32 548] network    669  bj  
+[2018/04/25 17:25:32 548] network    671  bj  
+[2018/04/25 17:25:32 548] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cm  117.121.56.3  
+[2018/04/25 17:25:32 548] network    93   iptoenv ,  ipcfg  open.xf-yun.com  ct  116.213.69.201  
+[2018/04/25 17:25:32 549] network    93   iptoenv ,  ipcfg  open.xf-yun.com  cu  117.121.56.8  
+[2018/04/25 17:25:32 550] network    93   iptoenv ,  ipcfg  open.xf-yun.com  def  116.213.69.199  
+[2018/04/25 17:25:32 551] network    671  gz  
+[2018/04/25 17:25:32 551] network    671  hf  
+[2018/04/25 17:25:32 551] network    671  la  
+[2018/04/25 17:25:32 551] network    821  update_iplist  
+[2018/04/25 17:25:32 551] waiter     196  last gc at  1524648332  
