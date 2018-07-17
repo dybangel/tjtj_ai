@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIN_TARGET	Makefile	/^BIN_TARGET = $(DIR_BIN)\/$(TARGET)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -Wall -I$(DIR_INC)$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = $/;"	m
+DIR_BIN	Makefile	/^DIR_BIN = ..\/..\/bin$/;"	m
+DIR_INC	Makefile	/^DIR_INC = ..\/..\/include$/;"	m
+DIR_LIB	Makefile	/^DIR_LIB = ..\/..\/libs$/;"	m
+FRAME_LEN	awaken_sample.c	11;"	d	file:
+IVW_AUDIO_FILE_NAME	awaken_sample.c	10;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS := -L$(DIR_LIB)\/x64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS := -L$(DIR_LIB)\/x86 $/;"	m
+OBJECTS	Makefile	/^OBJECTS := $(patsubst %.c,%.o,$(wildcard *.c))$/;"	m
+TARGET	Makefile	/^TARGET	= awaken_sample$/;"	m
+cb_ivw_msg_proc	awaken_sample.c	/^int cb_ivw_msg_proc( const char *sessionID, int msg, int param1, int param2, const void *info, void *userData )$/;"	f
+main	awaken_sample.c	/^int main(int argc, char* argv[])$/;"	f
+run_ivw	awaken_sample.c	/^void run_ivw(const char *grammar_list, const char* audio_filename ,  const char* session_begin_params)$/;"	f
+sleep_ms	awaken_sample.c	/^void sleep_ms(int ms)$/;"	f

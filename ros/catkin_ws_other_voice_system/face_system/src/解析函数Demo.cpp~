@@ -1,0 +1,35 @@
+#include <jsoncpp/json/json.h>
+#include <string>
+#include <iostream>
+
+int tranToString(string input)
+{
+	Json::Value root;
+	Json::Reader reader;
+	bool parsingSuccessful = reader.parse(input, root);
+	if(!parsingSuccessful)
+	{
+		cout<<"-- Failed to parse the data --" << endl;
+		return 1;
+	}
+
+	Json::Value rec_person = root["rec_person"];
+	rec_person = rec_person.asString();
+
+	Json::Value gender = root["gender"];
+	gender = gender.asString();
+	
+	Json::Value age = root["age"];
+	age = age.asInt();
+
+	Json::Value smile = root["smile"];
+	smile = smile.asDouble();
+
+	Json::Value glass = root["glass"];
+	glass = glass.asString();
+
+	Json::Value confidence = root["confidence"];
+	confidence = confidence.asString();
+
+	return 0;
+}

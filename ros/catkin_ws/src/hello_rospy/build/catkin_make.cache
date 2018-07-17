@@ -1,0 +1,2 @@
+beginner_tutorials
+-DCATKIN_DEVEL_PREFIX=/root/catkin_ws/src/hello_rospy/devel -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/src/hello_rospy/install -G Unix Makefiles

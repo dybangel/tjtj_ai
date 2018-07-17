@@ -1,0 +1,103 @@
+html{
+    font-family: "inger, 'Helvetica Neue', Helvetica, Arial, sans-ser";
+    font-size: 100px;
+}
+body{
+    font-size:0px;
+}
+
+#piano {
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    white-space: nowrap;
+}
+/* 每一个key的容器 */
+.keyW, .keyB {
+    box-size: border-box;
+    display: inline-block;
+    position: relative;
+    font-size:16px;
+    vertical-align: top;
+    margin: 0 1px;
+    width:0.426rem;
+    height: 0.4rem;
+}
+
+.keyW {
+    background-color: #cceeff;
+}
+
+.keyB {
+    background-color: #00dd00;
+    width: 0.3rem;
+}
+.keyB:after {
+    content: '';
+    border: 3px none none none solid #fff;
+    
+}
+.keyW + .keyB, .keyB + .keyW{
+    margin-left: calc(-0.3rem/2);
+    margin-left: -0.15rem;
+}
+/* key 本身 */
+.whiteKey, .blackKey{
+    box-size: border-box;
+    position: absolute;
+    text-align: center;
+    top: 1rem;
+}
+.whiteKey {
+    width: 0.426rem;
+    height: 1.689rem;
+    border-radius: 0.05rem;
+    background: rgba(250, 240, 230, 0.84) ;
+}
+
+.blackKey {
+    display: block;
+    width: 0.3rem;
+    height: 1.2rem;
+    background-color: #000;
+    border-radius: 0.05rem;
+    color: #b49f81;
+    z-index: 20;
+    margin-top: -2px;
+}
+/* key 中的音符  */
+.whiteKey span ,.blackKey span{
+    display: block;
+    position: absolute;
+    color: #7d520b;
+    width: 100%;
+    bottom: 0.15rem;
+}
+
+.blackKey span {
+    bottom: 10px;
+}
+
+/* key down 时的样式 */
+
+.wkdown {
+    background: rgba(250, 240, 230, 0.84) ;
+    /* For Latest Opera */
+    box-shadow: 0px 1px 10px 2px rgba(109, 105, 101, 0.84) inset;
+    /* For Chrome5+, Safari5+ */
+    -webkit-box-shadow: 0px 1px 10px 2px rgba(109, 105, 101, 0.84) inset;
+    /* For Firefox3.6+ */
+    -moz-box-shadow: 0px 1px 10px 2px rgba(109, 105, 101, 0.84) inset;
+}
+
+.bkdown {
+    background: #000;
+    /* For Latest Opera */
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.84) inset;
+    /* For Chrome5+, Safari5+ */
+    -webkit-box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.84) inset;
+    /* For Firefox3.6+ */
+    -moz-box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.84) inset;
+}
+

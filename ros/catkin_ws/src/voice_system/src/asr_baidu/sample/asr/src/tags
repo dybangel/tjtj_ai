@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+THREAD_NUM	main.cpp	/^const int THREAD_NUM = 1; \/\/ 测试的线程数，最大不能超过10$/;"	v
+asr_finish_tags	main.cpp	/^bool asr_finish_tags[THREAD_NUM] = {0}; \/\/线程是否结束识别$/;"	v
+asr_online_pushaudio	main.cpp	/^int asr_online_pushaudio(const char *file_path, const std::string &push_cmd, bds::BDSpeechSDK *sdk, int thread_seq) {$/;"	f
+asr_online_release	main.cpp	/^void asr_online_release(bds::BDSpeechSDK *sdk) {$/;"	f
+asr_online_stop	main.cpp	/^int asr_online_stop(bds::BDSpeechSDK *sdk) {$/;"	f
+asr_output_callback	main.cpp	/^void asr_output_callback(bds::BDSSDKMessage &message, void *user_arg) {$/;"	f
+asr_set_config_params	main.cpp	/^void asr_set_config_params(bds::BDSSDKMessage &cfg_params) {$/;"	f
+asr_set_start_params	main.cpp	/^void asr_set_start_params(bds::BDSSDKMessage &start_params) {$/;"	f
+asr_thread	main.cpp	/^static void *asr_thread(void *arg) {$/;"	f	file:
+audio_dir	main.cpp	/^char audio_dir[256] = ".\/pcm\/"; \/\/ 与THREAD_NUM一起决定测试的文件名$/;"	v
+file_names	main.cpp	/^char file_names[THREAD_NUM][256]; \/\/ 每个线程识别的文件名$/;"	v
+get_gmt_time	main.cpp	/^std::string get_gmt_time() {$/;"	f
+main	main.cpp	/^int main(int argc, char **argv) {$/;"	f
+thread_ids	main.cpp	/^pthread_t thread_ids[THREAD_NUM]; \/\/ 线程信息$/;"	v
+thread_mutexes	main.cpp	/^pthread_mutex_t thread_mutexes[THREAD_NUM]; \/\/ 锁信息，用于同步SDK内部回调线程和用户的调用线程的asr_finish_tags$/;"	v
+thread_sequeces	main.cpp	/^int thread_sequeces[THREAD_NUM] = {0};$/;"	v

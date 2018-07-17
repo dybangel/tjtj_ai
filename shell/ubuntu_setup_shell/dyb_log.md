@@ -18,7 +18,7 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
  MicroXP
  virt-manager
  https://www.kafan.cn/edu/49129121.html usb设备映射
- apt install vnc
+ apt install vnc  tightvncserver
  tightvncserver -depth 16 -geometry 800x600 :1
  5901
 

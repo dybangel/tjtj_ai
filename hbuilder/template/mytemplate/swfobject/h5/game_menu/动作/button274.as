@@ -1,0 +1,1 @@
+﻿// 警告: 在未注册版本中, 只反编译开始两个动作脚本。要反编译所有动作脚本，请到http://www.shankejingling.com/goumai.html购买完整版。
