@@ -1,5 +1,5 @@
 #!/bin/sh
-aptpack="openssh-server lrzsz sox vim vim-scripts vim-doc ctags git python-pip swig byacc vnc4server"
+aptpack="openssh-server lrzsz sox vim vim-scripts vim-doc ctags git python-pip swig byacc vnc4server libasound2-dev"
 
 for i in $aptpack
 do
