@@ -3,7 +3,8 @@ import serial
 import time
 
 #打开串口
-serialPort="/dev/ttyS0"   #串口
+#serialPort="/dev/ttyS0"   #串口
+serialPort="/dev/ttyUSB0"   #串口
 baudRate=115200       #波特率
 bytesize=8
 parity='N'

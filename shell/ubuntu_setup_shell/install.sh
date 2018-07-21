@@ -13,3 +13,10 @@ do
 done
 
 cp ./.vimrc ~/
+#允许root ssh登录
+#nano /etc/ssh/sshd_config
+#在Authentication部分，注释掉“PermitRootLogin without-password”
+#在Authentication部分，添加“PermitRootLogin yes”
+
+#关掉自动登录
+# vi /etc/lightdm/lightdm.conf 去掉自动登录 #autologin-user=dyb 

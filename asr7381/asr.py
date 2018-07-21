@@ -2,7 +2,7 @@
 import serial
 import time
 # 打开串口
-ser = serial.Serial("/dev/ttyS0", 115200)
+ser = serial.Serial("/dev/ttyUSB0", 115200)
 def main():
     while True:
         # 获得接收缓冲区字符
