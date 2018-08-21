@@ -20,3 +20,29 @@ cp ./.vimrc ~/
 
 #关掉自动登录
 # vi /etc/lightdm/lightdm.conf 去掉自动登录 #autologin-user=dyb 
+
+##设置无线网卡启动和静态IP
+#nano /etc/network/interfaces
+##增加下面代码 第一部分是给rj45口设置静态ip 第二部分是给usb无线网卡设置静态ip,无线设置前用iwlist 【dev】 scan看看能不能收到网络
+#auto enp2s0
+#iface enp2s0 inet static
+#address 8.8.8.8
+#netmask 255.255.255.0
+#gateway 8.8.8.8
+
+#auto enx0013ef3009d4
+#allow-hotplug enx0013ef3009d4
+#iface enx0013ef3009d4 inet static
+#wpa-ssid "treebear"
+#wpa-psk "rongwei7501"
+#address 1.1.1.1
+#netmask 255.255.255.0
+#gateway 192.168.123.1                          
+
+
+#########sqlliite
+#wget http://www.sqlite.org/2014/sqlite-autoconf-3080701.tar.gz
+#./configure
+#make; make install
+##编写代码后下面编译
+#$gcc test.c -l sqlite3

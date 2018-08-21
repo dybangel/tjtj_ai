@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*
 import serial
 import time
+import sys
 # 打开串口
 ser = serial.Serial("/dev/ttyUSB0", 115200)
 def main():
@@ -10,7 +11,9 @@ def main():
         if count != 0:
             # 读取内容并回显
             recv = ser.read(count)
-            ser.write(recv)
+            print(ser.readall())
+            #sys.stdout.write(recv)
+            #ser.write(recv)
         # 清空接收缓冲区
         ser.flushInput()
         # 必要的软件延时
