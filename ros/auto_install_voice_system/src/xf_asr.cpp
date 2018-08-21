@@ -20,11 +20,26 @@
 #define ASRCMD		1
 
 using namespace std;
-
+static std::string appid,hz;//需要launch 配置文件传入appid
 string result;
 bool pubFlag = false;
 bool recFlag = true;
 
+int IncludeChinese(char *str)
+{
+   int nRet = 0;
+   char c;
+   while(c=*str++)
+   {
+  //如果字符高位为1且下一字符高位也是1则有中文字符
+  if( (c&0x80) && (*str & 0x80) )
+  {
+  nRet = 1;
+  break;
+  }
+   }
+   return nRet;
+}
 
 /* Upload User words */
 static int upload_userwords()
@@ -86,12 +101,12 @@ upload_exit:
 
 static void show_result(char *str, char is_over)
 {
-	printf("\rResult: [ %s ]", str);
 	if(is_over)
 		putchar('\n');
-
+	printf("\rResult: [ %s ]", str);
 	string s(str);
 	result = s;
+   
 	pubFlag = true;//设置 flag 使其能发布消息去 nlu topic
 }
 
@@ -287,17 +302,23 @@ void asrProcess()
 	int ret = MSP_SUCCESS;
 	//	int upload_on =	1; /* whether upload the user word */
 	/* login params, please do keep the appid correct */
-	const char* login_params = "appid = 5aaa223d, work_dir = .";
+	char login_params[120];
+	sprintf(login_params,"appid = %s,work_dir = .",appid.c_str());
+	//const char* login_params = "appid = 5aaa223d, work_dir = .";
+	
 	//	int aud_src = 0; /* from mic 1 or file 0 */
 
 	/*
 
 	* See "iFlytek MSC Reference Manual"
 	*/
-	const char* session_begin_params =
+	/*const char* session_begin_params =
 		"sub = iat, domain = iat, language = zh_cn, "
 		"accent = mandarin, sample_rate = 16000, "
 		"result_type = plain, result_encoding = utf8";
+	*/
+	 char session_begin_params[500] ;
+	sprintf(session_begin_params,"sub = iat, domain = iat, language = zh_cn,accent = mandarin, sample_rate = %s, result_type = plain,result_encoding = utf8",hz.c_str());
 
 	/* Login first. the 1st arg is username, the 2nd arg is password
 
@@ -366,8 +387,11 @@ void asrCallback(const std_msgs::Int32::ConstPtr& in_msg)
 int main(int argc, char* argv[])
 {
 	printf("语音识别模块启动\n");
+	//ROS_INFO("start asr.....");
 
 	ros::init(argc, argv, "xf_asr_node");	//创建节点 xf_asr_node
+	ros::param::get("~appid",appid);//从launch 文件中取得appid
+	ros::param::get("~hz",hz);//从launch 文件中取得appid
 	ros::NodeHandle nd;  				//订阅话题 /voice/xf_asr_topic
 	ros::Subscriber sub = nd.subscribe("/voice/xf_asr_topic", 1 , asrCallback);
 							//发布消息 /voice/tuling_nlu_topic

@@ -289,6 +289,7 @@ int main(int argc, char* argv[])
 	ros::param::get("~speaker",speaker);//从launch 文件中取得发音人
 	ros::param::get("~pitch",pitch);//从launch 文件中取得音调
 	ros::param::get("~appid",appid);//从launch 文件中取得appid
+	//ROS_ERROR("xf_tts_topic appid now is:%s",appid);
 	//ROS_INFO("speaker:%s","xiaowanzi");
 	//ROS_INFO("string_param: %s", speaker.c_str());
 	

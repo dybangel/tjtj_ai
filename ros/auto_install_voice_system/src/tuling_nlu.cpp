@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include<ros/ros.h>
 #include<std_msgs/String.h>
 #include<std_msgs/Int32.h>
@@ -7,11 +9,15 @@
 #include<string>
 #include<iostream>
 #include<exception>
-
+#include <sqlite3.h>
 using namespace std;
 
+static std::string key;//tulingkey
+static std::string lastquestion,lastquestion2;//最后一次的用户问题
 string result;
 int pubFlag = 0;
+int studyFlag = 0;//0,1
+int countFlag = 1;//1,2
 int order = 0;
 
 
@@ -39,7 +45,7 @@ int parseJsonResonse(string input)
 	const Json::Value code=root["code"];
 	const Json::Value text=root["text"];
 	result = text.asString();
-
+	//result = "测试测试成功";
 	pubFlag = 1;
 
 	if(result.compare("前进")==0){
@@ -83,9 +89,9 @@ int parseJsonResonse(string input)
 int HttpPostRequest(string input)
 {
 	string buffer;
-
 	std::string strJson = "{" ;
-	strJson += "\"key\":\"6cbfde5c0ed14a0e842df9b8b41c3b95\"," ;
+	//strJson += "\"key\":\"6cbfde5c0ed14a0e842df9b8b41c3b95\"," ;
+	strJson += "\"key\":\""+key+"\"," ;
 	strJson += "\"info\":" ;
 	strJson += "\"" ;
 	strJson += input ;
@@ -153,7 +159,78 @@ catch(std::exception &ex)
 void nluCallback(const std_msgs::String::ConstPtr& msg)
 {
 	std::cout<<"my question: [ "<< msg->data << " ]" <<endl;
-	HttpPostRequest(msg->data);
+	//先检索本地数据库，如果有结果则给result赋值，反之调用httppost
+	//static std::string select_query[]="";
+	char select_query[120]="";
+	int ret = 0;
+	sqlite3 *db = 0;
+	char *s;
+  //打开数据库，不存在，创建数据库db
+	 ret = sqlite3_open("/root/catkin_ws/src/voice_system/mydb",&db);
+	if(ret != SQLITE_OK)
+	{  
+		printf("无法打开数据库\n");
+	}
+	printf("数据库连接成功\n");
+   ret = sqlite3_exec(db,"create table if not exists dialog(id int(10),fquestion varchar(100),fanswer varchar(100))",0,0,&s);
+         if(ret !=   SQLITE_OK)
+		      {   
+			     sqlite3_close(db);
+			     printf("create error\n");
+				      }
+	      printf("create success\n");
+   //插入一条模拟数据
+   // ret = sqlite3_exec(db,"insert into dialog(fquestion,fanswer) values('你好吗','我很好啊哈哈哈')",0,0,&s);
+	
+        pubFlag=1;
+    if(studyFlag==0){
+	printf("countflag=%d\n",countFlag);
+	if(countFlag==1){
+	lastquestion=(msg->data).c_str();
+	countFlag=2;
+	}else{
+	lastquestion2=(msg->data).c_str();
+	countFlag=1;
+	}
+	//如果触发“这样说不对”，机器人直接说那我应该怎么说，并且study标志位为1，下次语言过来时，直接入库并且标志位改为0
+    if(msg->data=="这样说不对"){
+		result="那我应该怎么说呢?";
+        studyFlag=1;
+	
+  //如果是其他用户语言，则查询数据库，有结果则按照结果说，没结果则调用http
+	}else{
+			sprintf(select_query,"select fanswer from dialog where fquestion='%s' limit 1",(msg->data).c_str());
+			printf("select_query=%s\n",select_query);
+
+			//查询
+			int nrow,ncolumn;
+			char ** db_result;
+			ret = sqlite3_get_table(db,select_query,&db_result,&nrow,&ncolumn,&s);
+			 printf("ncolumn=%d\n",ncolumn);
+			printf("nrow=%d\n",nrow);
+			//查询数据库,有结果
+			if(nrow>0){
+			    printf("result=%s\n",db_result[1]);
+				result = db_result[1];
+			//	pubFlag = 1;
+			}else{
+				HttpPostRequest(msg->data);
+			}
+
+	  }
+	}else{
+	//说明要进入学习模式，语言写入数据库，并且说记住了
+	//判断数据库里有没有过往答案，如果有就update，反之insert
+	sprintf(select_query,"insert into dialog(fquestion,fanswer) values('%s','%s')",lastquestion.c_str(),(msg->data).c_str());
+	printf("select_query=%s\n",select_query);
+	//sprintf(select_query,"insert into dialog(fquestion,fanswer) values('%s','%s')",lastquestion,(msg->data).c_str());
+    ret = sqlite3_exec(db,select_query,0,0,&s);
+	studyFlag=0;
+	
+	
+	}
+	printf("lastquestion=%s\n",lastquestion.c_str());
+	printf("studyFlag=%d\n",studyFlag);
 }
 
 int main(int argc,char* argv[])
@@ -161,6 +238,7 @@ int main(int argc,char* argv[])
 	printf("语义理解模块启动\n");
 
 	ros::init(argc, argv, "tuling_nlu_node");	//创建节点 tuling_nlu_node
+	ros::param::get("~key",key);//从launch tuling_key
 	ros::NodeHandle nd;  				//订阅话题 /voice/tuling_nlu_topic
 	ros::Subscriber sub = nd.subscribe("/voice/tuling_nlu_topic", 10 , nluCallback);
 							//发布消息 /voice/xf_tts_topic

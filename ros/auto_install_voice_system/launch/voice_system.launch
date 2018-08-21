@@ -1,14 +1,20 @@
 <launch>
 
 	<node pkg="voice_system" name="xf_tts_node" type="xf_tts_node" ns="catkin_ws" >
-	<param name="speaker" type="string" value="xiaowanzi" />  <!--xiaofeng xiaowanzi xiaoxin-->
-	<param name="pitch" type="string"  value="50" />         <!--音调控制 1～100-->
-	<param name="appid" type="string"  value="5aaa223d" />   <!--科大讯飞帐号-->
+		<param name="speaker" type="string" value="xiaofeng" />  <!--xiaofeng xiaowanzi xiaoxin-->
+		<param name="pitch" type="string"  value="20" />         <!--音调控制 1～100-->
+		<param name="appid" type="string"  value="5aaa223d" />   <!--科大讯飞帐号-->
 	</node>
 
-	<node pkg="voice_system" name="tuling_nlu_node" type="tuling_nlu_node" ns="catkin_ws" />
+	<node pkg="voice_system" name="tuling_nlu_node" type="tuling_nlu_node" ns="catkin_ws" >
+		<param name="key" type="string" value="6cbfde5c0ed14a0e842df9b8b41c3b95" />  <!--图灵登录key-->
+    </node>
 
 
-	<node pkg="voice_system" name="xf_asr_node" type="xf_asr_node" ns="catkin_ws" />
+	<node pkg="voice_system" name="xf_asr_node" type="xf_asr_node" ns="catkin_ws" >
+		<param name="appid" type="string"  value="5aaa223d" />   <!--科大讯飞帐号-->
+		<param name="hz" type="string"  value="8000" />   <!--采样率-->
+	</node>
 
+	<node pkg="voice_system" name="vs_start_node" type="vs_start_node" ns="catkin_ws"/>
 </launch>
